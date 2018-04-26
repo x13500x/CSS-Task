@@ -34,19 +34,28 @@ body{
 }
 
 .main{
-	height:8rem;
+	height:14rem;
+	padding-top:0.75rem;
 	background-color:rgb(225, 229, 231);
-	overflow:hidden;
+	/* margin-top:1rem; */
+	/* overflow:hidden; */
 }
-.input{
+.input1{
 	 display: flex;
 	 align-items: center;
 	 height: 6.25rem;
 	 width: 100%;
-	 margin-top: 0.8rem;
+	 /* margin-top: 0.8rem; */
 	 background-color: rgb(255, 255, 255);
 }
-
+.input2{
+	 display: flex;
+	 align-items: center;
+	 height: 6.25rem;
+	 width: 100%;
+	 margin-top: 0.75rem;
+	 background-color: rgb(255, 255, 255);
+}
 .icon{
 	padding-top:0.3rem;
 	padding-left:2.5rem;
