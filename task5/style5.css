@@ -1,0 +1,68 @@
+html{
+	 font-size: 62.5%;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+     background-color: rgb(95, 192, 205);
+     overflow:hidden;
+     text-align:center;
+     color: white;
+     height:88px;
+     line-height:88px;
+}
+.header-back{
+	 position: absolute;
+	 width:1.83rem;
+	 height:3.08rem;
+	 top: 2rem;
+	 left: 2rem;
+}
+.header-center{
+	margin:0 auto;
+	font-size: 3rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+	position: absolute;
+	height: 120px;
+	color: red;
+	bottom:10px;
+	width:100%;
+}
+.footer-left{
+	float: left;
+	border: 2px solid rgb(95, 192, 205);
+	border-radius: 10px;
+	width: 45%;
+	height:92px;
+	color: rgb(95, 192, 205);
+	line-height:92px;
+	margin-top:25px;
+	margin-left:3.3%;
+	margin-right:3.3%;
+	text-align:center;
+	font-size: 2.83rem;
+    font-family: "Adobe Heiti Std";
+	background-color: rgba(95, 192, 205,0);
+}
+.footer-right{
+	float: left;
+	border: 2px solid rgba(95, 192, 205, 1);
+	border-radius: 10px;
+ 	font-size: 2.83rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 255, 255);
+	width: 45%;
+	height:92px;
+	line-height:92px;
+	margin-top:25px;
+	text-align:center;
+	background-color: rgb(95, 192, 205);
+	
+}
