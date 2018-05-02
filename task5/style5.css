@@ -16,8 +16,7 @@ body{
 }
 .header-back{
 	 position: absolute;
-	 width:1.83rem;
-	 height:3.08rem;
+	 width:2rem;
 	 top: 2rem;
 	 left: 2rem;
 }
@@ -27,10 +26,104 @@ body{
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
-
+.main{
+	/* height:14rem; */
+	/* background-color:rgb(225, 229, 231); */1) */
+	margin-top:0;
+	/* overflow:hidden; */
+}
+.backgroud{
+	background-image: url(背景.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 268px;
+	overflow: hidden;
+}
+.person1{
+	float: left;
+	overflow: hidden;
+	padding: 4rem 4rem;
+	margin:auto 0 auto 0;
+}
+.person2{
+	width: 62.5%
+}
+.infor{
+	float: left;
+	padding-top: 8rem;
+}
+.name{
+	font-size: 2.25rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 255, 255);
+}
+.location1{
+	font-size: 1.5rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 255, 255);
+}
+.skill{
+	font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    border-left: 3px rgb(95, 192, 205) solid;
+    padding-left: 2rem;
+}
+.skill-intro1{
+	font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    padding-left: 1rem;
+    padding-right: 2rem;
+    border-right: 1px rgb(225, 229, 231) solid;
+}
+.skill-intro2{
+	font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+.star{
+	padding-left: 2rem;
+}
+.intro{
+	font-size: 2rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(153, 153, 153);
+	border-right: 1px rgb(225, 229, 231) solid;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.details1{
+    font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.details2{
+	font-size: 1.75rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(226, 97, 99);
+    padding-left: 2rem;
+}
+.input2{
+	 display: flex;
+	 align-items: center;
+	 /* height: 3rem; */
+	 width: 100%;
+	 /* margin-top: 0.75rem; */
+	 background-color: rgb(255, 255, 255);
+	 padding-left: 2rem;
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+}
 .footer{
 	position: absolute;
-	height: 120px;
+	/* height: 120px; */
 	color: red;
 	bottom:10px;
 	width:100%;
@@ -43,26 +136,26 @@ body{
 	height:92px;
 	color: rgb(95, 192, 205);
 	line-height:92px;
-	margin-top:25px;
-	margin-left:3.3%;
-	margin-right:3.3%;
+	/* margin-top:25px; */
+	margin-left:2.5%;
+	margin-right:2.5%;
 	text-align:center;
-	font-size: 2.83rem;
-    font-family: "Adobe Heiti Std";
+	font-size: 2.125rem;
+	font-family: "Adobe Heiti Std";
 	background-color: rgba(95, 192, 205,0);
 }
 .footer-right{
 	float: left;
 	border: 2px solid rgba(95, 192, 205, 1);
 	border-radius: 10px;
- 	font-size: 2.83rem;
-    font-family: "Adobe Heiti Std";
-    color: rgb(255, 255, 255);
+	font-size: 2.125rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(255, 255, 255);
 	width: 45%;
 	height:92px;
 	line-height:92px;
-	margin-top:25px;
+	/* margin-top:25px; */
+	/* margin-right:2.5%; */
 	text-align:center;
 	background-color: rgb(95, 192, 205);
-	
 }
