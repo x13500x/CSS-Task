@@ -1,5 +1,7 @@
 html{
 	 font-size: 62.5%;
+	 margin: 0;
+	 padding: 0;
 }
 body{
 	margin: 0;
@@ -22,33 +24,32 @@ body{
 }
 .header-center{
 	margin:0 auto;
-	font-size: 3rem;
+	font-size: 2.25rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
 .main{
-
 	margin-bottom:10rem;
 }
 .backgroud{
-	background-image: url(背景.png);
+	background-image: url(background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 16.75rem;
+	height: 13rem;
 	overflow: hidden;
+	display:flex;
+	align-items:center;
+	vertical-align:middle;
 }
 .person1{
-	float: left;
-	padding: 4rem 0rem 4rem 2rem;
-	
+	display:flex;
+	align-items:center;
+	vertical-align:middle;
+	padding: 3rem 2rem 3rem 2rem;
 }
 .person2{
-	width: 62.5%;
-}
-.infor{
-	float: left;
-	padding-top: 6rem;
+	width: 100px;
 }
 .name{
 	font-size: 2.25rem;
@@ -60,26 +61,50 @@ body{
 	font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
-
 }
 .location2{
 	width: 1rem;
 	padding-right: 1rem;
 	line-height: 3rem;
 }
+.hr1{
+	border:0;
+	height:1px;
+	margin:0;
+	background-color:rgb(225, 229, 231);
+}
+.hr2{
+	border:0;
+	height:1px;
+	margin:0;
+	width:10px;
+	float:left;
+	background-color:rgb(226, 97, 99);	
+}
+.input2{
+	 display:flex;
+	 align-items:center;
+	 vertical-align:middle;
+	 width: 100%;
+	 background-color: rgb(255, 255, 255);
+	 /* padding-left: 1rem; */
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+}
 .skill{
 	font-size: 2rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     border-left: 3px rgb(95, 192, 205) solid;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    margin-left:1rem;
 }
 .skill-intro1{
 	font-size: 2rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     border-right: 1px rgb(225, 229, 231) solid;
 }
 .skill-intro2{
@@ -87,78 +112,43 @@ body{
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .star{
-	padding-left: 2rem;
+	padding-left: 1rem;
+	width:20px;
+	margin-left:1rem;
 }
 .intro{
-
-	font-size: 2rem;
-	font-family: "Adobe Heiti Std";
-	color: rgb(153, 153, 153);
-	border-right: 1px rgb(225, 229, 231) solid;
-	padding-right: 2rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-.intro1{
-	width: 200px;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 100%;
-	font-size: 2rem;
-	font-family: "Adobe Heiti Std";
-	color: rgb(153, 153, 153);
-	border-right: 1px rgb(225, 229, 231) solid;
-	padding-right: 2rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+    min-width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+    font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(153, 153, 153);
+    border-right: 1px rgb(225, 229, 231) solid;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left:1rem;
 }
 .details1{
-
     font-size: 2rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
 }
 .details2{
 	font-size: 1.75rem;
     font-family: "Adobe Heiti Std";
     color: rgb(226, 97, 99);
-    padding-left: 2rem;
-}
-.details3{
-	display: inline-block;
-	vertical-align: middle;
-    font-size: 2rem;
-    font-family: "Adobe Heiti Std";
-    color: rgb(51, 51, 51);
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
-}
-.input2{
-	 display:flex;
-	 vertical-align:middle;
-	 width: 100%;
-	 background-color: rgb(255, 255, 255);
-	 padding-left: 2rem;
-	 padding-top: 1rem;
-	 padding-bottom: 1rem;
-}
-.input3{
-	 display:flex;
-	 vertical-align: center;
-	 width: 100%;
-	 background-color: rgb(255, 255, 255);
-	 padding-left: 2rem;
-	 padding-top: 1rem;
-	 padding-bottom: 1rem;
 }
 .footer{
 	position: fixed;
-	color: red;
+	color: rgba(255, 255, 255, 1);
 	bottom:0;
 	width:100%;
 	background-color: white;
@@ -166,7 +156,6 @@ body{
 }
 .footer-left{
 	float: left;
-	display:table-cell;
 	vertical-align:middle;
 	border: 2px solid rgb(95, 192, 205);
 	border-radius: 10px;
@@ -183,7 +172,6 @@ body{
 }
 .footer-right{
 	float: left;
-	display:table-cell;
 	vertical-align:middle;
 	border: 2px solid rgba(95, 192, 205, 1);
 	border-radius: 10px;
