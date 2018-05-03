@@ -93,6 +93,20 @@ body{
 	padding-left: 2rem;
 }
 .intro{
+
+	font-size: 2rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(153, 153, 153);
+	border-right: 1px rgb(225, 229, 231) solid;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.intro1{
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
 	font-size: 2rem;
 	font-family: "Adobe Heiti Std";
 	color: rgb(153, 153, 153);
@@ -102,6 +116,7 @@ body{
 	padding-right: 2rem;
 }
 .details1{
+
     font-size: 2rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
@@ -114,8 +129,26 @@ body{
     color: rgb(226, 97, 99);
     padding-left: 2rem;
 }
+.details3{
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .input2{
-	 display:table;
+	 display:flex;
+	 vertical-align:middle;
+	 width: 100%;
+	 background-color: rgb(255, 255, 255);
+	 padding-left: 2rem;
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+}
+.input3{
+	 display:flex;
 	 vertical-align: center;
 	 width: 100%;
 	 background-color: rgb(255, 255, 255);
