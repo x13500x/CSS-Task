@@ -13,23 +13,23 @@ body{
      overflow:hidden;
      text-align:center;
      color: white;
-     height:5.5rem;
-     line-height:5.5rem;
+     height:4.5rem;
+     line-height:4.5rem;
 }
 .header-back{
 	 position: absolute;
-	 width:1.2rem;
-	 top: 1.8rem;
+	 width:0.8rem;
+	 top: 1.6rem;
 	 left: 1rem;
 }
 .header-center{
 	margin:0 auto;
-	font-size: 2.25rem;
+	font-size: 1.8rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
 .main{
-	margin-bottom:10rem;
+	margin-bottom:6rem;
 }
 .backgroud{
 	background-image: url(background.png);
@@ -49,50 +49,47 @@ body{
 	padding: 3rem 2rem 3rem 2rem;
 }
 .person2{
-	width: 100px;
+	width: 85px;
 }
 .name{
-	font-size: 2.25rem;
+	font-size: 1.8rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
     line-height: 3rem;
 }
 .location1{
-	font-size: 1.5rem;
+	font-size: 1rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
 .location2{
-	width: 1rem;
+	width: 0.9rem;
 	padding-right: 1rem;
 	line-height: 3rem;
 }
-.hr1{
-	border:0;
-	height:1px;
-	margin:0;
-	background-color:rgb(225, 229, 231);
-}
-.hr2{
-	border:0;
-	height:1px;
-	margin:0;
-	width:10px;
-	float:left;
-	background-color:rgb(226, 97, 99);	
+.input1{
+	 display:flex;
+	 align-items:center;
+	 vertical-align:middle;
+	 /* width: 100%; */
+	 background-color: rgb(255, 255, 255);
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+	 border-bottom:1px rgb(225, 229, 231) solid;
 }
 .input2{
 	 display:flex;
 	 align-items:center;
 	 vertical-align:middle;
-	 width: 100%;
 	 background-color: rgb(255, 255, 255);
-	 /* padding-left: 1rem; */
 	 padding-top: 1rem;
 	 padding-bottom: 1rem;
+	 border-bottom:1px rgb(225, 229, 231) solid;
+	 margin-left:1rem;
+
 }
 .skill{
-	font-size: 2rem;
+	font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     border-left: 3px rgb(95, 192, 205) solid;
@@ -100,23 +97,23 @@ body{
     margin-left:1rem;
 }
 .skill-intro1{
-	font-size: 2rem;
+	font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-right: 1rem;
     border-right: 1px rgb(225, 229, 231) solid;
 }
 .skill-intro2{
-	font-size: 2rem;
+	font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-right: 1rem;
 }
 .star{
-	padding-left: 1rem;
-	width:20px;
+	padding-left: 0rem;
+	width:15px;
 	margin-left:1rem;
 }
 .intro{
@@ -124,63 +121,58 @@ body{
     display: inline-block;
     vertical-align: middle;
     line-height: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(153, 153, 153);
     border-right: 1px rgb(225, 229, 231) solid;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 0rem;
     margin-left:1rem;
 }
 .details1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 1rem;
     padding-right: 2rem;
 }
 .details2{
-	font-size: 1.75rem;
+	font-size: 1.25rem;
     font-family: "Adobe Heiti Std";
     color: rgb(226, 97, 99);
     padding-left: 1rem;
     padding-right: 2rem;
 }
 .footer{
-	position: fixed;
-	color: rgba(255, 255, 255, 1);
-	bottom:0;
-	width:100%;
-	background-color: white;
-	padding-bottom: 1rem;
+    display:flex;
+    justify-content:space-evenly;
+    position: fixed;
+    color: rgba(255, 255, 255, 1);
+    bottom:0;
+    width:100%;
+    background-color: white;
+    padding-bottom: 0.5rem;
 }
 .footer-left{
-	float: left;
-	vertical-align:middle;
 	border: 2px solid rgb(95, 192, 205);
 	border-radius: 10px;
-	width: 45%;
-	height:5.5rem;
+	width: 45.5%;
+	height:4.5rem;
 	color: rgb(95, 192, 205);
-	line-height:5.5rem;
-	margin-left:2.5%;
-	margin-right:2.5%;
+	line-height:4.5rem;
 	text-align:center;
-	font-size: 2.125rem;
+	font-size: 1.625rem;
 	font-family: "Adobe Heiti Std";
 	background-color: rgba(95, 192, 205,0);
 }
 .footer-right{
-	float: left;
-	vertical-align:middle;
 	border: 2px solid rgba(95, 192, 205, 1);
 	border-radius: 10px;
-	font-size: 2.125rem;
+	font-size: 1.625rem;
 	font-family: "Adobe Heiti Std";
 	color: rgb(255, 255, 255);
-	width: 45%;
-	height:5.5rem;
-	line-height:5.5rem;
+	width: 45.5%;
+	height:4.5rem;
+	line-height:4.5rem;
 	text-align:center;
 	background-color: rgb(95, 192, 205);
 }
