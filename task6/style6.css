@@ -1,0 +1,225 @@
+html{
+	 font-size: 62.5%;
+	 margin: 0;
+	 padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{  
+background-color: rgb(95, 192, 205);
+    
+padding-bottom: 1rem;
+    
+padding-top: 1rem;
+    
+overflow:hidden;
+    
+margin:0 auto;
+}
+.header-left{
+	float:left;
+	margin-left:20%;
+	left:20%;
+	border-radius: 10px;
+	width: 30%;
+	/* height:4.5rem; */
+	line-height:4.5rem;
+	text-align:center;
+	background-color: rgb(85, 168, 179);
+}
+.header-right{
+	float:left;
+	margin:0 auto;
+	border-radius: 10px;
+	width: 30%;
+	height:4.5rem;
+	line-height:4.5rem;
+	text-align:center;
+	background-color: rgba(255, 255, 255, 1);
+}
+.button1{
+	background-color:transparent;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	font-size: 1.625rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(255, 255, 255, 1);
+}
+.button2{
+	background-color:transparent;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	font-size: 1.625rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(95, 192, 205);
+}
+.header-location{
+	 position: absolute;
+	 width:3rem;
+	 top: 1.6rem;
+	 right: 1.5rem;
+}
+.main{
+   margin-bottom:6rem;
+  
+}
+.part1{
+	 display:flex;
+	 align-items:center;
+	 vertical-align:middle;
+	 background-color: rgb(255, 255, 255);
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+	 border-bottom:1px rgb(225, 229, 231) solid;
+}
+.part2{
+	 background-color: rgb(255, 255, 255);
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+	 border-bottom:1px rgb(225, 229, 231) solid;
+	 /* padding-left:3rem; */
+}
+.input1{
+	float:left;
+	width:33.3%;
+	text-align:center;
+	border-right: 1px rgb(225, 229, 231) solid;	
+}
+.input2{
+	float:left;
+	width:32%;
+	text-align:center;
+}
+.table1{
+	border:none;
+	outline:none;
+	font-size: 1.5rem;
+	font-family: "Adobe Heiti Std";	
+    color: rgb(153, 153, 153);
+    width: 100%;
+    padding-left:30%
+}
+ul{
+	list-style: none;
+	padding-left:2rem;
+	
+}
+li i{
+	background:url(img3.png);
+	background-repeat:no-repeat;
+	display: inline;
+	float: left;
+	width: 24px;
+	height: 33px;
+	/* margin-top: 1rem; */
+	margin-right: 1rem;
+}
+.dp{
+	display: flex;
+	justify-content:space-between;
+	vertical-align: middle;
+	margin-top:1rem;
+	margin-bottom:0.3rem;
+}
+.service{
+	font-size: 2rem;
+	font-family: "Adobe Heiti Std";
+	color:  rgb(93, 93, 93);;
+	/* padding-bottom:1rem; */
+	/* padding-top:1rem; */
+	margin-left:0.5rem;
+	/* margin-top:1rem; */
+	/* margin-bottom:1rem; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.details1 i{
+    background-position: 0 0;
+}
+.details2 i{
+	background-position: 0 -38px;
+}
+.date{
+    margin-left:3.3rem;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    font-size: 1.75rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    /* margin-top:1rem; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* line-height:100%; */
+}
+.price{
+	float:right;
+	font-size: 1.875rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(230, 59, 14);
+	/* margin-top:1rem; */
+	/* margin-bottom:1rem; */
+	display: flex;
+	justify-content:space-between;
+	/* overflow: hidden; */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+span i{
+	display: inline;
+	float: right;
+	margin-left:1rem;
+	margin-top:-0.3rem;
+}
+.price i{
+	background-position: 0 -77px;
+}
+#footer{
+    display:flex;
+    justify-content:space-around;
+    position: fixed;
+    color: rgba(255, 255, 255, 1);
+    bottom:0;
+    width:100%;
+    margin:0 auto;
+    background-color: rgb(248, 250, 251);
+    padding-bottom: 0.5rem;
+    border-top:1px rgb(219, 229, 231) solid;
+}
+.footer-left{
+	
+	
+	height:4.5rem;	
+	line-height:4.5rem;
+	text-align:center;
+	background-color: transparent;
+}
+.footer-right{
+    height:4.5rem;
+	line-height:4.5rem;
+	text-align:center;
+	background-color: transparent;
+}
+.footer-left1{
+	background-color:transparent;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	font-size: 1.625rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(95, 192, 205);
+}
+.footer-right1{
+	background-color:transparent;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	font-size: 1.625rem;
+	font-family: "Adobe Heiti Std";
+	color: rgb(153, 153, 153);
+}
