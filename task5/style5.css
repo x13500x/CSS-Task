@@ -142,15 +142,25 @@ body{
     padding-left: 1rem;
     padding-right: 2rem;
 }
-.footer{
+#footer{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     position: fixed;
     color: rgba(255, 255, 255, 1);
     bottom:0;
     width:100%;
+    margin:0 auto;
     background-color: white;
     padding-bottom: 0.5rem;
+}
+#footer:before {
+    content: "";
+    display: block;
+}
+
+#footer:after {
+    content: "";
+    display: block;
 }
 .footer-left{
 	border: 2px solid rgb(95, 192, 205);
