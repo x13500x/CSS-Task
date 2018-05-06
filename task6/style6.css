@@ -12,17 +12,17 @@ body{
 	 background: url(location.png);
 	 background-size:cover;
 	 position: absolute;
-	 top: 1.2rem;
+	 top: 1.3rem;
 	 right: 1.5rem;
-	 width: 30px;
-	 height: 30px;
+	 width: 35px;
+	 height: 35px;
 	 outline: none;
 	 border: none;
 	 }
 .switch {
   position: relative;
   margin: 0.5rem auto;
-  height: 4rem;
+  height: 4.5rem;
   width:40%;
   background: rgb(85, 168, 179);
   border-radius: 10px;
@@ -32,7 +32,7 @@ body{
   z-index:2;
   float: left;
   width:50%;
-  line-height: 4rem;
+  line-height: 4.5rem;
   font-size: 2.125rem;
   color: rgba(255, 255, 255);
   text-align: center; 
@@ -56,7 +56,7 @@ body{
   border-radius: 10px;
 }
 .main{
-   margin-bottom:6rem;  
+   margin-bottom:8rem;  
 }
 .part1{
 	 display:flex;
