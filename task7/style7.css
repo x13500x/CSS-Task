@@ -95,7 +95,7 @@ body{
   border:none;
   background-color:rgb(105, 209, 233);
   margin:2rem auto;
-  width: 85%;
+  width: 80%;
   vertical-align: middle;  
 }
 .button3{
@@ -113,9 +113,9 @@ body{
 	 width: 2.8rem;
 	 height: 5.6rem;
 	 outline: none;
-	 position:fixed;
+	 position:absolute;
 	 right:6%;
-	 top:58%;
+	 top:53rem;
 	 border: none; 
 	 }	 
 .data{
@@ -220,7 +220,7 @@ body{
 	justify-content:space-between;
 	text-align:center;
 	margin-top:4rem;
-	
+	/* height:20rem; */
 }
 .box-p2-3-1::before {
     content: "";
@@ -237,8 +237,7 @@ body{
 	display:flex;
 	justify-content:space-between;
 	text-align:center;
-	margin-top:1rem;
-	
+	/* height:20rem; */
 }
 .box-p2-3::before {
     content: "";
@@ -278,24 +277,24 @@ body{
 }
 .box-p2-4{
 	width:25%;
-	height:20rem;
+	height:0;
+	padding-bottom:35%;	
 }
 .gamer{
 	border: 0.5rem white solid;
-	/* width: 19%; */
-	margin:4%;
-	/* height:0; */
 	background-color: rgb(251, 180, 53);
-	padding-bottom:25%;
 	position:relative;
+	padding-bottom:95%;
+	height:0;
 }
 .status{
   font-size: 3rem;
   font-family: "HiraginoSansGB";
   color: rgb(86, 86, 86);
-  /* width:100%; */
-  /* height:100%; */
-  line-height:9rem;
+ position:absolute;
+	top:45%;               
+    left:50%;
+    -webkit-transform:translate(-50%,-50%); 
   overflow: hidden;
 	 text-overflow: ellipsis;
 	 white-space: nowrap;
@@ -320,56 +319,41 @@ body{
 	display:none;
 	}
 .element{
-	display:none;
-	border: 0.5rem transparent solid;
-	/* background:url(image/img.png); */
-	/* background-color:transparent; */
-	/* width: 19%; */
-	margin-top:1rem;
-	display: inline-block;
-	/* background-repeat:no-repeat; */
+	display:flex;
+	justify-content:space-between;
+	margin-top:10%;
+	/* margin-left:0; */
+	/* margin-right:0; */
 	}
-.button-p2-3{
+.knife{
 	background:url(image/knife.png);
-	 width: 30px;
-	 height: 30px;
-	 outline: none;
-	 border: none;
-	 padding:0;
-	 }
-.button-p2-3 i{
-	 background-position:0 -142px;
+	background-size:cover;
+	width: 20%;
+	height:0;
+	padding-bottom:20%
 	}
-
-.button-p2-4{
+.fond{
 	background:url(image/fond.png);
-	 width: 30px;
-	 height: 30px;
-	 outline: none;
-	 border: none;
+	background-size:cover;
+	width: 20%;
+	height:0;
+	padding-bottom:20%
 	 }
-.button-p2-4 i{
-	 background-position:0 -112px;
-	 }
-.button-p2-5{
+
+.shoot{
 	 background:url(image/shoot.png);
-	width: 30px;
-	 height: 30px;
-	 outline: none;
-	 border: none;
+	 background-size:cover;
+	width: 20%;
+	height:0;
+	padding-bottom:20%
 	 }
-.button-p2-5 i{
-	 background-position:0 -172px;
-	 }
-.button-p2-6{
+
+.doctor{
 	background:url(image/doctor.png);
-	 width: 30px;
-	 height: 30px;
-	 outline: none;
-	 border: none;
-	 }
-.button-p2-6 i{
-	 background-position:0 -204px;
+	background-size:cover;
+	 width: 20%;
+	height:0;
+	padding-bottom:20%
 	 }
 .footer-p2{
     position: fixed;

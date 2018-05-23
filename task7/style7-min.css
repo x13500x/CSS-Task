@@ -109,9 +109,9 @@ body{
 	 width: 1.4rem;
 	 height: 2.8rem;
 	 outline: none;
-	 position:fixed;
+	 position:absolute;
 	 right:6%;
-	 top:59%;
+	 top:28rem;
 	 border: none; 
 	 }	 
 .data{
@@ -203,7 +203,7 @@ body{
 }
 .main-p2{
 	background-color: rgb(95, 192, 205);
-	padding-bottom:8rem;
+	padding-bottom:13rem;
 }
 .box-p2-3-1{
 	width: 100%;
@@ -212,7 +212,7 @@ body{
 	justify-content:space-between;
 	text-align:center;
 	margin-top:1.5rem;
-	
+	/* height:10rem; */
 }
 .box-p2-3-1::before {
     content: "";
@@ -229,7 +229,8 @@ body{
 	display:flex;
 	justify-content:space-between;
 	text-align:center;
-	
+	margin-top:1rem;
+	/* height:10rem; */
 }
 .box-p2-3::before {
     content: "";
@@ -259,21 +260,26 @@ body{
 }
 .box-p2-4{
 	width:25%;
-	height:10rem;
+	height:0;
+	padding-bottom:33%;
 }
 .gamer{
 	border: 0.2rem white solid;
-	margin:4%;
 	background-color: rgb(251, 180, 53);
-	padding-bottom:25%;
 	position:relative;
+	padding-bottom:95%;
+	height:0;
 }
 .status{
-    font-size: 1.5rem;
-    font-family: "HiraginoSansGB";
-    color: rgb(86, 86, 86);
-    line-height:4.5rem;
-    overflow: hidden;
+	position:absolute;
+	top:45%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	font-size: 1.5rem;
+	font-family: "HiraginoSansGB";
+	color: rgb(86, 86, 86);
+	line-height:6rem;
+	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
@@ -296,43 +302,41 @@ body{
 	display:none;
 	}
 .element{
-	display:none;
-	border: 0.25rem transparent solid;
-	margin-top:0.5rem;
-	display: inline-block;
+	display:flex;
+	justify-content:space-between;
+	margin-top:8%;
+	padding:0;
 	}
-.button-p2-3{
+.knife{
 	background:url(image/knife.png);
 	background-size:cover;
-	 width: 1.2rem;
-	 height: 1.2rem;
-	 outline: none;
-	 border: none;
-	 padding:0;
+	width: 20%;
+	height:0;
+	padding-bottom:20%
+	 
 	 }
-.button-p2-4{
+.fond{
 	background:url(image/fond.png);
 	background-size:cover;
-	 width: 1.2rem;
-	 height: 1.2rem;
-	 outline: none;
-	 border: none;
+	 width: 20%;
+	height:0;
+	padding-bottom:20%
+	
 	 }
-.button-p2-5{
+.shoot{
 	 background:url(image/shoot.png);
 	 background-size:cover;
-	 width: 1.2rem;
-	 height: 1.2rem;
-	 outline: none;
-	 border: none;
+	 width: 20%;
+	height:0;
+	padding-bottom:20%
+	
 	 }
-.button-p2-6{
+.doctor{
 	background:url(image/doctor.png);
 	background-size:cover;
-	 width: 1.2rem;
-	 height: 1.2rem;
-	 outline: none;
-	 border: none;
+	 width: 20%;
+	height:0;
+	padding-bottom:20%
 	 }
 .footer-p2{
     position: fixed;
@@ -433,16 +437,16 @@ body{
 	word-break:keep-all;
 }
 .day-1{
-	border-bottom: 1px rgb(83, 83, 83) solid;
+	border-bottom: 1px rgb(154, 154, 154) solid;
 }
 .day-2{
-	border-bottom: 1px rgb(83, 83, 83) solid;
+	border-bottom: 1px rgb(154, 154, 154) solid;
 	margin-bottom: 2.5rem;
 }
 .day1{
    width:80%;
    margin-left:10%;
-    margin-top:1rem;
+   margin-top:0.5rem;
 }
 .day2{
 	font-size:1.5rem;
@@ -461,7 +465,7 @@ body{
 .nightsun{
 	width: 80%;
 	margin-left:10%;
-	margin-top:1rem;
+	margin-top:0.5rem;
 	margin-bottom:1rem;
 	font-size: 1.2rem;
 	font-family: "HiraginoSansGB";
