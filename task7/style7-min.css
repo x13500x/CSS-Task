@@ -133,7 +133,7 @@ body{
   background-color: rgb(105, 209, 233);
   width: 0.75rem;
   height: 0.75rem;
-  margin-right:1rem;
+  margin-right:0.5rem;
   display:inline-block;
 }
 .circle2 {
@@ -141,7 +141,7 @@ body{
   background-color: rgb(240, 240, 240);
   width: 0.75rem;
   height:  0.75rem;
-  margin-right:1rem;
+  margin-right:0.5rem;
   display:inline-block;
 }
 .button-p2-1{
