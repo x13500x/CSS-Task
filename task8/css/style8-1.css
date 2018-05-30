@@ -1,0 +1,133 @@
+
+.connection{
+	padding-top: 8rem;
+}
+.rocket1{
+	background:url(../image/rocket.png);
+	background-size: cover;
+	width: 60px;
+	height: 62px;
+	margin:0 auto;
+}
+.rocket2{
+	text-align:center;
+	margin:3rem 1.5rem 0 1.5rem;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.rocket3{
+	text-align:center;
+    margin:2rem 1.5rem 0 1.5rem;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+}
+.archive1{
+	background:url(../image/archive.png);
+	background-size: cover;
+	width: 60px;
+	height: 62px;
+	margin:0 auto;
+	padding-top:1rem;
+}
+.archive2{
+    text-align:center;
+    margin:3rem 1.5rem 0 1.5rem;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.archive3{
+	text-align:center;
+	margin:2rem 1.5rem 0 1.5rem;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+}
+.person{
+    border-right: 3px rgb(222, 222, 222) dashed;
+}
+.person1{
+	background:url(../image/person.jpg);
+	background-size: cover;
+	width: 60px;
+	height: 62px;
+	margin:0 auto;
+	padding-top:1rem;
+}
+.person2{
+	text-align:center;
+	margin:3rem 1.5rem 0 1.5rem;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.person3{
+	text-align:center;
+	margin:2rem 1.5rem 0 1.5rem;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+}
+.user{
+	width: 13px;
+	height: 13px;
+}
+.number{
+    margin-top: 6rem;
+    padding-left:4rem;
+}
+.number1{
+	background: url(../image/user.png);
+	background-size: cover;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+}
+.number2{
+	
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(38, 162, 111);
+    margin-left:1rem;
+}
+.total{
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+    margin:1rem 0;
+}
+.work{
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+    margin:1rem 0;
+}
+.how{
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	text-align: center;
+}
+.study{
+	display: flex;
+	justify-content:space-between;
+}
+.circle{
+	width: 72px;
+	height: 72px; 
+	border-radius: 50%;
+	background-color: rgb(0, 255, 255);
+	box-shadow: 0px 1px 3px 0px rgba(8, 1, 3, 0.15);
+	text-align:center;
+	line-height:72px;
+}
+.match{
+	width:160px;
+
+}
+.next{
+	background: url(../image/next.png);
+	width: 25px;
+	height: 23px;
+}

@@ -1,0 +1,66 @@
+.headertopbox{
+	display:flex;
+	justify-content: space-between;
+    padding: 0.3rem 0;
+}
+
+.headertop{
+  font-size: 14px;
+  padding-top:0.4rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(41, 176, 120);
+  /* padding-top: 0.5rem; */
+  /* text-align:center; */
+}
+.element{
+    vertical-align: :middle;
+    text-align: right;
+    /* padding-top: 0.5rem; */
+}
+.weixin{
+	background:url(../image/weixin.png);
+	background-size: cover;
+	width: 27px;
+	height:25px;
+    display:inline-block;
+    margin-left: 1rem;
+}
+.qq{
+	background:url(../image/qq.png);
+	background-size: cover;
+	width: 27px;
+	height: 25px;
+	display:inline-block;
+	 margin-left: 1rem;
+}
+.weibo{
+	background:url(../image/weibo.png);
+	background-size: cover;
+	width: 27px;
+	height: 25px;
+	display:inline-block;
+	 margin-left: 1rem;
+}
+.headerbottom{
+	background-color: rgb(41, 176, 120);
+}
+
+.nav-item{
+	height:8rem;
+	display: flex;
+	margin-left: 3rem;
+	align-items: center;
+	/* text-align: center; */
+	/* justify-content: center; */
+	font-size:1.5rem;
+	border-bottom: 4px solid #29b078;
+	color:#fff;
+	cursor: pointer;
+}
+  .navbar-nav > li > a:hover
+  {
+    border-bottom: 4px solid white;
+    color: #fff;
+    background: #29b078;
+}
+      
