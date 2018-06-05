@@ -41,6 +41,9 @@
 	display:inline-block;
 	 margin-left: 1rem;
 }
+.top{
+	padding: 0;
+}
 .headerbottom{
 	background-color: rgb(41, 176, 120);
 }
@@ -66,7 +69,7 @@
  .bottom{
  	background-color: rgb(38, 162, 111);
  	color:white;
-
+ 	/* position:fixed; */
  } 
  .bottom1{
  	padding:0;
