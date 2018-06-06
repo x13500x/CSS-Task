@@ -41,6 +41,16 @@
 	display:inline-block;
 	 margin-left: 1rem;
 }
+.logo{
+	background:url(../image/logo.png);
+	background-size: contain;
+	width: 108px;
+	height: 49px;
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+	margin-top:4.5%;
+}
 .top{
 	padding: 0;
 }
