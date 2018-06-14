@@ -52,7 +52,7 @@
 	margin-top:4.5%;
 }
 .top{
-	padding: 0;
+	/* padding: 0; */
 }
 .headerbottom{
 	background-color: rgb(41, 176, 120);
@@ -82,7 +82,7 @@
  	/* position:fixed; */
  } 
  .bottom1{
- 	padding:0;
+ 	/* padding:0; */
  }    
  .tree{
    margin-top:2rem;
@@ -104,7 +104,7 @@
 
  }
  .web-box{
- 	padding-left:7rem;
+ 	/* padding-left:7rem; */
  	font-size:1.6rem;
  }
  .web{
@@ -119,9 +119,8 @@ margin-top:1.7rem;
  }
  .qrcode{
  	font-size:1.6rem;
- 	float:right;
+ 	/* float:right; */
  	margin-top:2rem;
-
  }
  .qrcode1{
 
