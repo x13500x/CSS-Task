@@ -1,16 +1,18 @@
 .headertopbox{
 	display:flex;
 	justify-content: space-between;
-    padding: 0.3rem 0;
+	/* padding: 0.3rem 0; */
+	/* line-height:30px; */
 }
 
 .headertop{
   font-size: 14px;
-  padding-top:0.4rem;
+  /* padding-top:0.4rem; */
   font-family: "Microsoft YaHei";
   color: rgb(41, 176, 120);
   /* padding-top: 0.5rem; */
   /* text-align:center; */
+  line-height:35px;
 }
 .element{
     vertical-align: :middle;
@@ -19,27 +21,20 @@
 }
 .weixin{
 	background:url(../image/weixin.jpg);
-	background-size: cover;
-	width: 25px;
-	height:25px;
-    display:inline-block;
-    margin-left: 1rem;
 }
 .qq{
 	background:url(../image/qq.jpg);
-	background-size: cover;
-	width: 25px;
-	height: 25px;
-	display:inline-block;
-	 margin-left: 1rem;
 }
 .weibo{
 	background:url(../image/weibo.png);
+}
+.weibo,.weixin,.qq{
 	background-size: cover;
 	width: 25px;
 	height: 25px;
 	display:inline-block;
 	 margin-left: 1rem;
+	 margin-top:5px;
 }
 .logo{
 	background:url(../image/logo.png);

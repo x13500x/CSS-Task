@@ -97,7 +97,7 @@
 .job-person{
 	display:flex;
 	justify-content:center;
-	align-items:center;
+	align-items:flex-start;
 	/* margin-left:1rem; */
 	/* margin-right:1rem; */
 	}
