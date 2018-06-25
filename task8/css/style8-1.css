@@ -360,6 +360,7 @@ font-size:1.6rem;
 color: rgb(51, 51, 51);
 }
 .link1{
+	list-style-type:none;
 	padding:0;
 	display: flex;
 	justify-content:space-between;
@@ -369,4 +370,25 @@ color: rgb(51, 51, 51);
 }
 .link2{
 	color: rgb(153, 153, 153);
+
+}
+.link3{
+	display:none;
+}
+ul.link1 li a:hover,
+ul.link3 li a:hover
+{
+    border-bottom: 1px #29b078 solid;
+    text-decoration:none;
+}
+@media only screen and (max-width: 991px) {
+
+   .link1{
+   	display:none;
+   }
+    .link3{
+	list-style-type:none;
+	padding:0;
+	display: flex;
+	justify-content:space-between;
 }
