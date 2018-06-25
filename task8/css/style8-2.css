@@ -37,6 +37,7 @@ box-shadow:  0px 1px 3px rgba(8, 1, 3, 0.15);
 .cooperation-left{
 	/* padding:0; */
 	box-shadow:  0px 1px 3px rgba(8, 1, 3, 0.15);
+	/* text-align:center; */
 }
 .cooperation-list{
 	margin-left:45%;
@@ -77,6 +78,19 @@ box-shadow:  0px 1px 3px rgba(8, 1, 3, 0.15);
 	align-items:center;
 	/* margin-left:1rem; */
 	margin-right:3rem;
+	}
+@media only screen and (max-width: 991px) {
+	.tudou1{
+		display:block;
+		}
+		.tudou-logo{
+			margin-bottom:1rem;
+			margin-right:0;
+		}
+		.cooperation-list{
+	/* margin-left:45%; */
+	/* text-align:center; */
+}
 	}
 .tudou-found{
 	/* margin-left:5rem; */
