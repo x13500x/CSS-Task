@@ -81,6 +81,12 @@
     text-decoration: none;
     cursor: pointer;
 }
+.navbar-default .navbar-nav > li.active > a.nav-item1,
+.navbar-default .navbar-nav > li.active > a.nav-item2,
+.navbar-default .navbar-nav > li.active > a.nav-item3,
+.navbar-default .navbar-nav > li.active > a.nav-item4{
+	border-bottom: 4px solid #eee;
+}
 .navbar-default .navbar-nav > li.active > a {
     color: #fff;
     background: #29b078;
@@ -90,6 +96,7 @@
     background: #29b078;
     border-bottom: 4px solid #eee;
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .navbar-default .navbar-nav > li > a{
         height:68px;
