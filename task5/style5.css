@@ -1,121 +1,138 @@
-html{
-	 font-size: 62.5%;
-	 margin: 0;
-	 padding: 0;
-}
-body{
-	margin: 0;
-	padding: 0;
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
-     background-color: rgb(95, 192, 205);
-     overflow:hidden;
-     text-align:center;
-     color: white;
-     height:4.5rem;
-     line-height:4.5rem;
+body {
+    margin: 0;
+    padding: 0;
 }
-.header-back{
-	 position: absolute;
-	 width:0.8rem;
-	 top: 1.6rem;
-	 left: 1rem;
+
+.header {
+    background-color: rgb(95, 192, 205);
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    height: 4.5rem;
+    line-height: 4.5rem;
 }
-.header-center{
-	margin:0 auto;
-	font-size: 1.8rem;
+
+.header-back {
+    position: absolute;
+    width: 0.8rem;
+    top: 1.6rem;
+    left: 1rem;
+}
+
+.header-center {
+    margin: 0 auto;
+    font-size: 1.8rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
-.main{
-	margin-bottom:6rem;
+
+.main {
+    margin-bottom: 6rem;
 }
-.backgroud{
-	background-image: url(background.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 13rem;
-	overflow: hidden;
-	display:flex;
-	align-items:center;
-	vertical-align:middle;
+
+.backgroud {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 13rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
 }
-.person1{
-	display:flex;
-	align-items:center;
-	vertical-align:middle;
-	padding: 3rem 2rem 3rem 2rem;
+
+.person1 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 3rem 2rem 3rem 2rem;
 }
-.person2{
-	width: 85px;
+
+.person2 {
+    width: 85px;
 }
-.name{
-	font-size: 1.8rem;
+
+.name {
+    font-size: 1.8rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
     line-height: 3rem;
 }
-.location1{
-	font-size: 1rem;
+
+.location1 {
+    font-size: 1rem;
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
-.location2{
-	width: 0.9rem;
-	padding-right: 1rem;
-	line-height: 3rem;
+
+.location2 {
+    width: 0.9rem;
+    padding-right: 1rem;
+    line-height: 3rem;
 }
-.input1{
-	 display:flex;
-	 align-items:center;
-	 vertical-align:middle;
-	 /* width: 100%; */
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 1rem;
-	 padding-bottom: 1rem;
-	 border-bottom:1px rgb(225, 229, 231) solid;
+
+.input1 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    /* width: 100%; */
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px rgb(225, 229, 231) solid;
 }
-.input2{
-	 display:flex;
-	 align-items:center;
-	 vertical-align:middle;
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 1rem;
-	 padding-bottom: 1rem;
-	 border-bottom:1px rgb(225, 229, 231) solid;
-	 margin-left:1rem;
+
+.input2 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px rgb(225, 229, 231) solid;
+    margin-left: 1rem;
 }
-.skill{
-	font-size: 1.5rem;
+
+.skill {
+    font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     border-left: 3px rgb(95, 192, 205) solid;
     padding-left: 1rem;
-    margin-left:1rem;
+    margin-left: 1rem;
 }
-.skill-intro1{
-	font-size: 1.5rem;
+
+.skill-intro1 {
+    font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 0.5rem;
     padding-right: 1rem;
     border-right: 1px rgb(225, 229, 231) solid;
 }
-.skill-intro2{
-	font-size: 1.5rem;
+
+.skill-intro2 {
+    font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 0.5rem;
     padding-right: 1rem;
 }
-.star{
-	padding-left: 0rem;
-	width:15px;
-	margin-left:1rem;
+
+.star {
+    padding-left: 0rem;
+    width: 15px;
+    margin-left: 1rem;
 }
-.intro{
+
+.intro {
     min-width: 80px;
     display: inline-block;
     vertical-align: middle;
@@ -125,33 +142,37 @@ body{
     color: rgb(153, 153, 153);
     border-right: 1px rgb(225, 229, 231) solid;
     padding-left: 0rem;
-    margin-left:1rem;
+    margin-left: 1rem;
 }
-.details1{
+
+.details1 {
     font-size: 1.5rem;
     font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     padding-left: 1rem;
     padding-right: 2rem;
 }
-.details2{
-	font-size: 1.25rem;
+
+.details2 {
+    font-size: 1.25rem;
     font-family: "Adobe Heiti Std";
     color: rgb(226, 97, 99);
     padding-left: 1rem;
     padding-right: 2rem;
 }
-#footer{
-    display:flex;
-    justify-content:space-between;
+
+#footer {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     color: rgba(255, 255, 255, 1);
-    bottom:0;
-    width:100%;
-    margin:0 auto;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
     background-color: white;
     padding-bottom: 0.5rem;
 }
+
 #footer:before {
     content: "";
     display: block;
@@ -161,39 +182,43 @@ body{
     content: "";
     display: block;
 }
-.footer-left{
-	border: 2px solid rgb(95, 192, 205);
-	border-radius: 10px;
-	width: 45.5%;
-	height:4.5rem;	
-	line-height:4.5rem;
-	text-align:center;
-	background-color: rgba(95, 192, 205,0);
+
+.footer-left {
+    border: 2px solid rgb(95, 192, 205);
+    border-radius: 10px;
+    width: 45.5%;
+    /* height:4.5rem; */
+    line-height: 4.5rem;
+    text-align: center;
+    background-color: rgba(95, 192, 205, 0);
 }
-.footer-right{
-	border: 2px solid rgba(95, 192, 205, 1);
-	border-radius: 10px;
-	width: 45.5%;
-	height:4.5rem;
-	line-height:4.5rem;
-	text-align:center;
-	background-color: rgb(95, 192, 205);
+
+.footer-right {
+    border: 2px solid rgba(95, 192, 205, 1);
+    border-radius: 10px;
+    width: 45.5%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    background-color: rgb(95, 192, 205);
 }
-.button1{
-	background-color:transparent;
-	border: 0px;
-	padding: 0px;
-	outline: none;
-	font-size: 1.625rem;
-	font-family: "Adobe Heiti Std";
-	color: rgb(95, 192, 205);
+
+.button1 {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    outline: none;
+    font-size: 1.625rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(95, 192, 205);
 }
-.button2{
-	background-color:transparent;
-	border: 0px;
-	padding: 0px;
-	outline: none;
-	font-size: 1.625rem;
-	font-family: "Adobe Heiti Std";
-	color: rgb(255, 255, 255);
+
+.button2 {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    outline: none;
+    font-size: 1.625rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 255, 255);
 }
