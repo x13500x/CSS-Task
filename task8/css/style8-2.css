@@ -3,22 +3,15 @@
     background-size: contain;
     width: 108px;
     height: 49px;
-    /* display:flex; */
-    /* justify-content:center; */
-    /* align-items:center; */
     margin-top: 4.5%;
 }
 
 .main {
     background: rgb(241, 167, 80);
     width: 100%;
-    /* height: 248px; */
 }
 
-.main-hand {
-    /* background:url(../image/hand.png); */
-    /* height:248px; */
-}
+.main-hand {}
 
 .inner {
     margin-top: 7%;
@@ -27,7 +20,7 @@
 }
 
 .cooperation {
-    /* padding:0; */
+
     margin: 1rem 0;
 }
 
@@ -44,19 +37,15 @@
 }
 
 .cooperation-left {
-    /* padding:0; */
+
     box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
-    /* text-align:center; */
 }
 
 .cooperation-list {
     margin-left: 45%;
-    /* text-align:center; */
 }
 
 .cooperation-list1 {
-    /* display:inline-block; */
-    /* text-align:center; */
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
@@ -73,6 +62,14 @@
     color: #29b078;
 }
 
+.list-details2 {
+    list-style-image: url(../image/list0.png);
+}
+
+.list-details3 {
+    color: #ff650e;
+}
+
 ul.cooperation-list1 li a:hover,
 ul.cooperation-list1 li:hover {
     list-style-image: url(../image/list0.png);
@@ -83,9 +80,6 @@ ul.cooperation-list1 li:hover {
 
 .tudou {
     box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
-    /* width:72%; */
-    /* margin-left:3%; */
-    /* padding:0; */
 }
 
 .tudou1 {
@@ -97,42 +91,33 @@ ul.cooperation-list1 li:hover {
 }
 
 .tudou-logo {
-    /* background: url(../image/tudou.png); */
-    /* background-size: cover; */
-    /* width: 123px; */
-    /* height: 33px; */
+
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left:1rem; */
     margin-right: 3rem;
 }
 
 @media only screen and (max-width: 991px) {
     .tudou1 {
-        padding: 1rem;
+        padding: 1rem 3rem;
     }
     .tudou-logo {
-        /* margin-bottom:1rem; */
         margin-right: 0;
     }
     .cooperation-list {
         margin-left: 45%;
-        /* text-align:center; */
     }
     p.tudou-intro1 {
         margin: 2rem 0;
-        padding: 0rem 1rem;
+        padding: 0rem 3rem;
     }
 }
 
-.tudou-found {
-    /* margin-left:5rem; */
-}
+.tudou-found {}
 
 .tudou-intro {
-    /* box-shadow:  0px 1px 3px rgba(8, 1, 3, 0.15); */
-    /* margin:2rem 5rem; */
+
     text-indent: 2em;
     line-height: 2.5rem;
 }
