@@ -1,390 +1,411 @@
-                        .connection {
-                        padding-top: 8rem;
-                    }
+                            .connection {
+                                padding-top: 8rem;
+                            }
 
-                    @media screen and (min-width: 992px) {
-                        .col-md-20 {
-                            float: left;
-                            width: 25%;
-                            box-sizing: border-box;
-                        }
-                    }
+                            @media screen and (min-width: 992px) {
+                                .col-md-20 {
+                                    float: left;
+                                    width: 25%;
+                                    box-sizing: border-box;
+                                }
+                            }
 
-                    .rocket,
-                    .archive,
-                    .person0 {
-                        padding: 3rem 0 0 0;
-                    }
+                            .rocket,
+                            .archive,
+                            .person0 {
+                                padding: 3rem 0 0 0;
+                            }
 
-                    .rocket1 {
-                        background: url(../image/rocket.png);
-                    }
+                            .rocket1 {
+                                background: url(../image/rocket.png);
+                            }
 
-                    .rocket1,
-                    .archive1,
-                    .person1 {
-                        background-size: cover;
-                        width: 60px;
-                        height: 62px;
-                        margin: 0 auto;
-                    }
+                            .rocket1,
+                            .archive1,
+                            .person1 {
+                                background-size: cover;
+                                width: 60px;
+                                height: 62px;
+                                margin: 0 auto;
+                            }
 
-                    .rocket2,
-                    .archive2,
-                    .person2 {
-                        text-align: center;
-                        margin: 3rem 1.5rem 0 1.5rem;
-                        font-size: 18px;
-                        font-family: "Microsoft YaHei";
-                        color: rgb(51, 51, 51);
-                    }
+                            .rocket2,
+                            .archive2,
+                            .person2 {
+                                text-align: center;
+                                margin: 3rem 1.5rem 0 1.5rem;
+                                font-size: 18px;
+                                font-family: "Microsoft YaHei";
+                                color: rgb(51, 51, 51);
+                            }
 
-                    .rocket3,
-                    .archive3,
-                    .person3 {
-                        text-align: center;
-                        margin: 2rem 1.5rem 0 1.5rem;
-                        font-size: 16px;
-                        font-family: "Microsoft YaHei";
-                        color: rgb(153, 153, 153);
-                    }
+                            .rocket3,
+                            .archive3,
+                            .person3 {
+                                text-align: center;
+                                margin: 2rem 1.5rem 0 1.5rem;
+                                font-size: 16px;
+                                font-family: "Microsoft YaHei";
+                                color: rgb(153, 153, 153);
+                            }
 
-                    .archive1 {
-                        background: url(../image/archive.png);
-                        padding-top: 1rem;
-                    }
+                            .archive1 {
+                                background: url(../image/archive.png);
+                                padding-top: 1rem;
+                            }
 
-                    .person {
-                        border-right: 3px rgb(222, 222, 222) dashed;
-                    }
+                            .person {
+                                border-right: 3px rgb(222, 222, 222) dashed;
+                            }
 
-                    .person1 {
-                        background: url(../image/person.jpg);
-                        padding-top: 1rem;
-                    }
+                            .person1 {
+                                background: url(../image/person.jpg);
+                                padding-top: 1rem;
+                            }
 
-                    .user {
-                        width: 13px;
-                        height: 13px;
-                    }
+                            .user {
+                                width: 13px;
+                                height: 13px;
+                            }
 
-                    .number {}
+                            .number {}
 
-                    .number0 {
-                        margin-top: 6rem;
-                        padding-left: 4rem;
-                    }
+                            .number0 {
+                                margin-top: 6rem;
+                                padding-left: 4rem;
+                            }
 
-                    @media screen and (max-width: 991px) {
-                        .number00 {
-                            text-align: center;
-                            padding-left: 0;
-                            margin-top: 5rem;
-                        }
-                        .person00 {
-                            border: 0;
-                        }
-                    }
+                            @media screen and (max-width: 991px) {
+                                .number00 {
+                                    text-align: center;
+                                    padding-left: 0;
+                                    margin-top: 5rem;
+                                }
+                                .person00 {
+                                    border: 0;
+                                }
+                            }
 
-                    .number1 {
-                        background: url(../image/user.png);
-                        background-size: cover;
-                        width: 13px;
-                        height: 13px;
-                        display: inline-block;
-                    }
+                            .number1 {
+                                background: url(../image/user.png);
+                                background-size: cover;
+                                width: 13px;
+                                height: 13px;
+                                display: inline-block;
+                            }
 
-                    .number2 {
+                            .number2 {
 
-                        font-size: 18px;
-                        font-family: "Microsoft YaHei";
-                        color: rgb(38, 162, 111);
-                        margin-left: 1rem;
-                    }
+                                font-size: 18px;
+                                font-family: "Microsoft YaHei";
+                                color: rgb(38, 162, 111);
+                                margin-left: 1rem;
+                            }
 
-                    .total {
-                        font-size: 18px;
-                        font-family: "Microsoft YaHei";
-                        color: rgb(153, 153, 153);
-                        margin: 1rem 0;
-                    }
+                            .total {
+                                font-size: 18px;
+                                font-family: "Microsoft YaHei";
+                                color: rgb(153, 153, 153);
+                                margin: 1rem 0;
+                            }
 
-                    .work {
-                        font-size: 18px;
-                        font-family: "Microsoft YaHei";
-                        color: rgb(153, 153, 153);
-                        margin: 1rem 0;
-                    }
+                            .work {
+                                font-size: 18px;
+                                font-family: "Microsoft YaHei";
+                                color: rgb(153, 153, 153);
+                                margin: 1rem 0;
+                            }
 
-                    .how {
-                        padding-top: 8rem;
-                        /* padding-bottom: 8rem; */
-                        text-align: center;
-                        font-size: 1.6rem;
-                    }
+                            .how {
+                                padding-top: 8rem;
+                                /* padding-bottom: 8rem; */
+                                text-align: center;
+                                font-size: 1.6rem;
+                            }
 
-                    .detail,
-                    .detail1 {
-                        padding-top: 4rem;
-                    }
+                            .detail,
+                            .detail1 {
+                                padding-top: 4rem;
+                            }
 
-                    .study {}
+                            .study {}
 
-                    .study0 {
-                        display: flex;
-                        justify-content: space-between;
-                    }
+                            .study0 {
+                                display: flex;
+                                justify-content: space-between;
+                            }
 
-                    @media screen and (min-width: 992px) {
-                        .match0 {
-                            height: 72px;
-                            width: 50%;
-                            display: flex;
-                            justify-content: flex-start;
-                            align-items: center;
-                            color: rgb(153, 153, 153);
-                        }
-                    }
+                            @media screen and (min-width: 992px) {
+                                .match0 {
+                                    height: 72px;
+                                    width: 50%;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    color: rgb(153, 153, 153);
+                                }
+                            }
 
-                    @media screen and (max-width: 991px) {
-                        .match {
-                            height: 72px;
-                            width: 50%;
-                            display: flex;
-                            justify-content: flex-start;
-                            align-items: center;
-                            color: rgb(153, 153, 153);
-                        }
-                        .detail1 {
-                            padding-top: 0rem;
-                        }
-                        .study {
-                            padding-top: 1rem;
-                            padding-bottom: 1rem;
-                        }
-                        .next1 {
-                            opacity: 1;
-                        }
-                    }
+                            @media screen and (max-width: 991px) {
+                                .match {
+                                    height: 72px;
+                                    width: 50%;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    color: rgb(153, 153, 153);
+                                }
+                                .detail1 {
+                                    padding-top: 0rem;
+                                }
+                                .study {
+                                    padding-top: 1rem;
+                                    padding-bottom: 1rem;
+                                }
+                                .next1 {
+                                    opacity: 1;
+                                }
+                            }
 
-                    .circle {
+                            .circle {
 
-                        width: 72px;
-                        height: 72px;
-                        border-radius: 50%;
-                        background-color: rgba(255, 255, 255, 1);
-                        box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
-                        text-align: center;
-                        line-height: 72px;
-                    }
+                                width: 72px;
+                                height: 72px;
+                                border-radius: 50%;
+                                background-color: rgba(255, 255, 255, 1);
+                                box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
+                                text-align: center;
+                                line-height: 72px;
+                            }
 
-                    @media screen and (min-width: 1200px) {
-                        .match1 {
-                            height: 72px;
-                            width: 140px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            color: rgb(153, 153, 153);
-                        }
-                    }
+                            @media screen and (min-width: 1200px) {
+                                .match1 {
+                                    height: 72px;
+                                    width: 140px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: rgb(153, 153, 153);
+                                }
+                            }
 
-                    .next {
-                        margin-top: 2rem;
-                        background: url(../image/next.png);
-                        width: 25px;
-                        height: 23px;
-                    }
+                            .next {
+                                margin-top: 2rem;
+                                background: url(../image/next.png);
+                                width: 25px;
+                                height: 23px;
+                            }
 
-                    .next1 {
-                        margin-top: 2rem;
-                        background: url(../image/next.png);
-                        width: 25px;
-                        height: 23px;
-                        opacity: 0;
-                    }
+                            .next1 {
+                                margin-top: 2rem;
+                                background: url(../image/next.png);
+                                width: 25px;
+                                height: 23px;
+                                opacity: 0;
+                            }
 
-                    .show {
-                        padding-top: 8rem;
-                        padding-bottom: 6rem;
-                        text-align: center;
-                        font-size: 1.6rem;
-                    }
+                            .show {
+                                padding-top: 8rem;
+                                padding-bottom: 6rem;
+                                text-align: center;
+                                font-size: 1.6rem;
+                            }
 
-                    .student {}
+                            .student {}
 
-                    .student0 {
-                        margin: 1rem 0;
-                        padding: 0.5rem 0;
-                        box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
-                    }
+                            .student0 {
+                                margin: 1rem 0;
+                                padding: 0.5rem 0;
+                                box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
+                            }
 
-                    .student-last {}
+                            .student-last {}
 
-                    .student1 {
-                        background: url(../image/student1.png);
-                        background-size: cover;
-                        width: 108px;
-                        height: 108px;
-                        margin: 1.5rem auto;
-                        padding-top: 1rem;
-                    }
+                            .student1 {
+                                background: url(../image/student1.png);
+                                background-size: cover;
+                                width: 108px;
+                                height: 108px;
+                                margin: 1.5rem auto;
+                                padding-top: 1rem;
+                            }
 
-                    .student2 {
-                        background: url(../image/student2.png);
-                        background-size: cover;
-                        width: 108px;
-                        height: 108px;
-                        margin: 1.5rem auto;
-                    }
+                            .student2 {
+                                background: url(../image/student2.png);
+                                background-size: cover;
+                                width: 108px;
+                                height: 108px;
+                                margin: 1.5rem auto;
+                            }
 
-                    .student3 {
-                        background: url(../image/student3.png);
-                        background-size: cover;
-                        width: 108px;
-                        height: 108px;
-                        margin: 1.5rem auto;
-                        padding-top: 1rem;
-                    }
+                            .student3 {
+                                background: url(../image/student3.png);
+                                background-size: cover;
+                                width: 108px;
+                                height: 108px;
+                                margin: 1.5rem auto;
+                                padding-top: 1rem;
+                            }
 
-                    .student4 {
-                        background: url(../image/student4.png);
-                        background-size: cover;
-                        width: 108px;
-                        height: 108px;
-                        margin: 1.5rem auto;
-                        padding-top: 1rem;
-                    }
+                            .student4 {
+                                background: url(../image/student4.png);
+                                background-size: cover;
+                                width: 108px;
+                                height: 108px;
+                                margin: 1.5rem auto;
+                                padding-top: 1rem;
+                            }
 
-                    .student-a {
-                        text-align: center;
-                        margin: 2rem;
-                        font-size: 1.8rem;
-                    }
+                            .student-a {
+                                text-align: center;
+                                margin: 2rem;
+                                font-size: 1.8rem;
+                            }
 
-                    .student-b {
-                        margin: 2rem 10%;
-                        color: rgb(153, 153, 153);
-                        font-size: 1.6rem;
-                    }
+                            .student-b {
+                                margin: 2rem 10%;
+                                color: rgb(153, 153, 153);
+                                font-size: 1.6rem;
+                            }
 
-                    .turn-a {
-                        text-align: center;
-                        margin: 1rem auto;
-                    }
+                            .turn-a {
+                                text-align: center;
+                                margin: 1rem auto;
+                            }
 
-                    .turn {
-                        margin: 0.5rem auto;
-                    }
+                            .turn {
+                                margin: 0.5rem auto;
+                            }
 
-                    .turn1 {
-                        border-radius: 50%;
-                        background-color: rgb(105, 209, 233);
-                        width: 1.2rem;
-                        height: 1.2rem;
-                        margin-right: 0.3rem;
-                        display: inline-block;
-                    }
+                            .turn1 {
+                                border-radius: 50%;
+                                background-color: rgb(105, 209, 233);
+                                width: 1.2rem;
+                                height: 1.2rem;
+                                margin-right: 0.3rem;
+                                display: inline-block;
+                            }
 
-                    .turn2 {
-                        border-radius: 50%;
-                        background-color: rgb(240, 240, 240);
-                        width: 1.2rem;
-                        height: 1.2rem;
-                        margin-right: 0.3rem;
-                        display: inline-block;
-                    }
+                            .turn2 {
+                                border-radius: 50%;
+                                background-color: rgb(240, 240, 240);
+                                width: 1.2rem;
+                                height: 1.2rem;
+                                margin-right: 0.3rem;
+                                display: inline-block;
+                            }
 
-                    .company {
-                        display: inline-flex;
-                        margin-bottom: 6rem;
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-items: center;
-                    }
+                            .company {
+                                display: inline-flex;
+                                margin-bottom: 6rem;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                align-items: center;
+                            }
 
-                    .company-a {
+                            .company-a {
 
-                        width: 228px;
-                        text-align: center;
-                        float: left;
-                    }
+                                width: 228px;
+                                text-align: center;
+                                float: left;
+                            }
 
-                    div.company-a:hover {
-                        box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
-                        z-index: 1;
-                    }
+                            div.company-a:hover {
+                                box-shadow: 0px 1px 3px rgba(8, 1, 3, 0.15);
+                                z-index: 1;
+                            }
 
-                    .company1 {
-                        background: url(../image/company1.png);
-                    }
+                            .company1 {
+                                background: url(../image/company1.png);
+                            }
 
-                    .company2 {
-                        background: url(../image/company2.png);
-                    }
+                            .company2 {
+                                background: url(../image/company2.png);
+                            }
 
-                    .company3 {
-                        background: url(../image/company3.png);
-                    }
+                            .company3 {
+                                background: url(../image/company3.png);
+                            }
 
-                    .company4 {
-                        background: url(../image/company4.png);
-                    }
+                            .company4 {
+                                background: url(../image/company4.png);
+                            }
 
-                    .company5 {
-                        background: url(../image/company5.png);
-                    }
+                            .company5 {
+                                background: url(../image/company5.png);
+                            }
 
-                    .company1,
-                    .company2,
-                    .company3,
-                    .company4,
-                    .company5 {
-                        background-size: cover;
-                        width: 175px;
-                        height: 65px;
-                        margin: 4rem auto;
-                        display: inline-block;
-                    }
+                            .company1,
+                            .company2,
+                            .company3,
+                            .company4,
+                            .company5 {
+                                background-size: cover;
+                                width: 175px;
+                                height: 65px;
+                                margin: 4rem auto;
+                                display: inline-block;
+                            }
 
-                    .link {
-                        text-align: center;
-                        margin-bottom: 2rem;
-                        font-size: 1.6rem;
-                        color: rgb(51, 51, 51);
-                    }
+                            .link {
+                                text-align: center;
+                                margin-bottom: 2rem;
+                                font-size: 1.6rem;
+                                color: rgb(51, 51, 51);
+                            }
 
-                    .link1 {
-                        list-style-type: none;
-                        padding: 0;
-                        display: flex;
-                        justify-content: space-between;
-                        /* list-style-type:disc; */
-                    }
+                            .link1 {
+                                list-style-type: none;
+                                padding: 0;
+                                margin-top: 1rem;
+                            }
 
-                    .link2 {
-                        color: rgb(153, 153, 153);
-                    }
+                            .link0 {
+                                margin-bottom: 1rem;
+                            }
 
-                    .link3 {
-                        display: none;
-                    }
+                            .link2 {
+                                color: rgb(153, 153, 153);
+                            }
 
-                    ul.link1 li a:hover,
-                    ul.link3 li a:hover {
-                        border-bottom: 1px #29b078 solid;
-                        text-decoration: none;
-                    }
+                            .col-sm-1-5,
+                            .col-md-1-8,
+                            .col-lg-1-10 {
+                                min-height: 1px;
+                                padding-left: 15px;
+                                padding-right: 5px;
+                                position: relative;
+                            }
 
-                    @media only screen and (max-width: 991px) {
 
-                        .link1 {
-                            display: none;
-                        }
-                        .link3 {
-                            list-style-type: none;
-                            padding: 0;
-                            display: flex;
-                            justify-content: space-between;
-                        }
+                            div.link1 a:hover {
+                                border-bottom: 1px #29b078 solid;
+                                text-decoration: none;
+                                color: rgb(153, 153, 153);
+                            }
+
+                            @media (min-width: 768px) {
+                                .col-sm-1-5 {
+                                    width: 20%;
+                                    float: left;
+                                }
+                            }
+
+
+                            @media (min-width: 992px) {
+                                .col-lg-1-10 {
+                                    width: 10%;
+                                    float: left;
+                                }
+                            }
+
+                            @media only screen and (max-width: 450px) {
+                                .col-xs-3 {
+                                    min-height: 1px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                    position: relative;
+                                    font-size: 0.8rem;
+                                }
+                            }
