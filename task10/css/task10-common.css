@@ -1,0 +1,99 @@
+.top {
+    background-color: rgb(29, 122, 217);
+}
+
+.headertopbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertop {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    line-height: 35px;
+}
+
+.element {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.element1 {
+    border-left: 1px white solid;
+    float: right;
+}
+
+.element2 {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    width: 77px;
+    height: 36.78px;
+    padding-top: 0.7rem;
+}
+
+div.element1 a:hover,
+div.element1:hover {
+    color: rgb(29, 122, 217);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.bottom1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(153, 153, 153);
+}
+
+.tree {
+    /* margin-top: 2rem; */
+    font-size: 1.6rem;
+    font-family: "Microsoft YaHei";
+}
+
+.web {
+    margin-top: 2rem;
+}
+
+.web-a {
+    margin-bottom: 1.7rem;
+}
+
+.web-b {
+    /* color: white; */
+    padding-right: 2rem;
+}
+
+.web-box a.web-b {
+    color: rgb(153, 153, 153);
+}
+
+.web-box a.web-b:hover {
+    text-decoration: none;
+    color: rgb(29, 122, 217);
+}
+
+.qrcode {
+    font-size: 1.6rem;
+    /* margin-top: 2rem; */
+}
+
+.qrcode0 {
+    /* margin-top:0.5rem; */
+    margin-right: 1rem;
+}
+
+.qrcode1 {
+    margin-top: 0.5rem;
+}
+
+.qrcode2,
+.qrcode0 {
+    float: right;
+}
+
+.infor {
+    text-align: center;
+    color: #fff;
+}
