@@ -40,6 +40,13 @@ div.element1:hover {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 500px) {
+    .element2 {
+        width: 50px;
+        height: 36.78px;
+    }
+}
+
 .bottom1 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -96,4 +103,13 @@ div.element1:hover {
 .infor {
     text-align: center;
     color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .web-box {
+        margin-top: 2rem;
+    }
+    .qrcode {
+        float: left;
+    }
 }
