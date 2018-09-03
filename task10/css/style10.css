@@ -317,7 +317,10 @@
 
 .mm0,
 .mm {}
-
+.mm1{
+    display:flex;
+    flex-wrap: wrap;
+}
 .mm {
     margin-top: 10px;
     margin-bottom: 10px;
