@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "STHeitiSC";
+}
+@bgcolor: #5FC0CD;
+@fontcolor: #ffffff;
+@spacecolor: #E1E5E7;
+.border-right{
+  border-right: 2px solid @spacecolor;
+}
+.header{
+   background-color: @bgcolor;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: @fontcolor;
+   font-size: 2rem;
+   height: 5.5rem;
+   .header-center{
+     font-size: 2.5rem;
+   }
+ }
+.icon {
+  padding-top: 0.3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  .border-right;
+}
+.text {
+  border: hidden;
+  outline: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: @fontcolor;
+}
+.main {
+  height: 14rem;
+  padding-top: 0.75rem;
+  background-color: @spacecolor;
+
+  .input1{
+    .input;
+    .icon{
+      .icon;
+    }
+    .text{
+      .text;
+    }
+  }
+  .input2{
+    margin-top: 0.75rem;
+    .input;
+    .icon{
+      .icon;
+    }
+    .text{
+      .text;
+    }
+  }
+}
+.bottom {
+  background-color: @bgcolor;
+  display: flex;
+  justify-content: center;
+  height: 5.5rem;
+  .button {
+    background-color: @bgcolor;
+    margin: 0.8em;
+    border: 0;
+    padding: 0;
+    color: @fontcolor;
+    outline: none;
+    font-size: 2.5rem;
+  }
+}
+.footer {
+  float: right;
+  color: @bgcolor;
+  margin: 0.5em 1em;
+  font-size: 2rem;
+}

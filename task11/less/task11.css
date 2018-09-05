@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "STHeitiSC";
+}
+.border-right {
+  border-right: 2px solid #E1E5E7;
+}
+.header {
+  background-color: #5FC0CD;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2rem;
+  height: 5.5rem;
+}
+.header .header-center {
+  font-size: 2.5rem;
+}
+.icon {
+  padding-top: 0.3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-right: 2px solid #E1E5E7;
+}
+.text {
+  border: hidden;
+  outline: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+.main {
+  height: 14rem;
+  padding-top: 0.75rem;
+  background-color: #E1E5E7;
+}
+.main .input1 {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+.main .input1 .icon {
+  padding-top: 0.3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-right: 2px solid #E1E5E7;
+}
+.main .input1 .text {
+  border: hidden;
+  outline: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.main .input2 {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+.main .input2 .icon {
+  padding-top: 0.3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-right: 2px solid #E1E5E7;
+}
+.main .input2 .text {
+  border: hidden;
+  outline: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.bottom {
+  background-color: #5FC0CD;
+  display: flex;
+  justify-content: center;
+  height: 5.5rem;
+}
+.bottom .button {
+  background-color: #5FC0CD;
+  margin: 0.8em;
+  border: 0;
+  padding: 0;
+  color: #ffffff;
+  outline: none;
+  font-size: 2.5rem;
+}
+.footer {
+  float: right;
+  color: #5FC0CD;
+  margin: 0.5em 1em;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=task11.css.map */

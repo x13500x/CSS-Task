@@ -1,0 +1,97 @@
+@charset "utf-8";
+//设置基础变量
+$fontkind: "STHeitiSC";
+$fontSize: 2rem;
+$bgcolor: #5FC0CD;
+$fontcolor: #ffffff;
+$spacecolor: #E1E5E7;
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/*头部*/
+.header{
+  background-color: $bgcolor;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $fontcolor;
+  font-size: 2rem;
+  height: 5.5rem;
+  .header-center{
+    font-size: $fontSize+0.5rem;
+  }
+}
+/*主体部分*/
+//混合引入量
+@mixin border-right{
+  border-right: 2px solid $spacecolor;
+}
+@mixin icon1 {
+  padding-top: 0.3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+@mixin text1 {
+  border: hidden;
+  outline: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+@mixin input {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: $fontcolor;
+}
+//正文
+.main {
+  height: 14rem;
+  padding-top: 0.75rem;
+  background-color: $spacecolor;
+  .input1{
+      @include input;
+      .icon{
+        @include icon1;
+        @include border-right;
+      }
+      @import "helper/picture";
+  }
+  .input2{
+    margin-top: 0.75rem;
+    @include input;
+    .icon{
+      @include icon1;
+      @include border-right;
+    }
+    .text{
+      @include text1;
+    }
+  }
+}
+/*底部*/
+.bottom {
+  background-color: $bgcolor;
+  display: flex;
+  justify-content: center;
+  height: 5.5rem;
+  .button {
+    background-color: $bgcolor;
+    margin: 0.8em;
+    border: 0;
+    padding: 0;
+    color: $fontcolor;
+    outline: none;
+    font-size: 2.5rem;
+  }
+}
+.footer {
+  float: right;
+  color: $bgcolor;
+  margin: 0.5em 1em;
+  font-size: 2rem;
+}
