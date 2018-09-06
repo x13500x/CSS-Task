@@ -197,7 +197,7 @@ body {
     border: 2px solid rgba(95, 192, 205, 1);
     border-radius: 10px;
     width: 45.5%;
-    height: 4.5rem;
+    /* height: 4.5rem; */
     line-height: 4.5rem;
     text-align: center;
     background-color: rgb(95, 192, 205);
