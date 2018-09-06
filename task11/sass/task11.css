@@ -72,6 +72,7 @@ input[type="number"] {
   background-color: #5FC0CD;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 5.5rem; }
   .bottom .button {
     background-color: #5FC0CD;

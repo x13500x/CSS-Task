@@ -86,6 +86,7 @@ input[type="number"]{-moz-appearance:textfield;}
   background-color: $bgcolor;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 5.5rem;
   .button {
     background-color: $bgcolor;
