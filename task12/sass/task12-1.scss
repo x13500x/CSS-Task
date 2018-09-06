@@ -1,0 +1,200 @@
+@charset "utf-8";
+//基础变量
+$fontkind: "STHeitiSC";
+$fontSize: 1.5rem;
+$bg-color: #5FC0CD;
+$font-color1: #ffffff;
+$font-color2: rgb(153, 153, 153);
+$font-color3: rgb(226, 97, 99);
+$font-color4: rgb(51, 51, 51);
+$border-color: rgb(225, 229, 231);
+@mixin style1{
+  margin: 0;
+  padding: 0;
+}
+@mixin flex1{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+@mixin border-right1{
+  border-right: 1px $border-color solid;
+}
+//正文
+html{
+  @include style1;
+  font-size: 62.5%;
+  color: $font-color1;
+}
+body{
+  @include style1;
+}
+/*头部*/
+.header {
+  background-color: $bg-color;
+  overflow: hidden;
+  text-align: center;
+  color: $font-color1;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  .header-back{
+    position: absolute;
+    width: 0.8rem;
+    top: 1.6rem;
+    left: 1rem;
+  }
+  .header-center{
+    margin: 0 auto;
+    font-size: $fontSize + 0.3rem;
+    color: $font-color1;
+  }
+}
+/*主体*/
+.main {
+  margin:{
+    bottom: 6rem;
+  }
+  .background{
+    background: url(../image/background.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 13rem;
+    overflow: hidden;
+    @include flex1;
+    .person1{
+      @include flex1;
+      padding: 3rem 2rem 3rem 2rem;
+      .person2{
+        width: 85px;
+      }
+    }
+    .infor{
+      .name{
+        font-size: 1.8rem;
+        line-height: 3rem;
+      }
+      .location1{
+        font-size: 1rem;
+        .location2{
+          width: 0.9rem;
+          padding-right: 1rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+  @mixin input0 {
+    @include flex1;
+    background-color: $font-color1;
+    padding: {
+      top:1rem;
+      bottom: 1rem;
+    };
+    border-bottom: 1px $border-color solid;
+  }
+  @mixin skill-intro{
+    font-size: 1.5rem;
+    color: $font-color4;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+  }
+  .input1{
+    @include input0;
+    .skill{
+      color: $font-color4;
+      border-left: 3px $bg-color solid;
+      padding-left: 1rem;
+      margin-left: 1rem;
+      font-size: $fontSize;
+    }
+  }
+  .input2{
+    @include input0;
+    margin-left: 1rem;
+    .skill-intro1{
+      @include skill-intro;
+      @include border-right1;
+    }
+    .skill-intro2{
+      @include skill-intro;
+    }
+    .star {
+      padding-left: 0;
+      width: 15px;
+      margin-left: 1rem;
+    }
+    .intro{
+      min-width: 80px;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 100%;
+      font-size: $fontSize;
+      color: $font-color2;
+      @include border-right1;
+      padding-left: 0;
+      margin-left: 1rem;
+    }
+    /*传参*/
+    @mixin details ($color1,$size1){
+      color: $color1;
+      padding-left: 1rem;
+      padding-right: 2rem;
+      font-size: $size1;
+    }
+    .details1{
+      @include details($font-color4,$fontSize);
+    }
+    .details2{
+      @include details($font-color3,$fontSize - 0.25rem);
+    }
+ }
+}
+/*底部*/
+#footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  color: $font-color1;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $font-color1;
+  padding-bottom: 0.5rem;
+  &:before {
+    content: "";
+    display: block;
+  }
+  &:after {
+    content: "";
+    display: block;
+  }
+  @mixin footer-style{
+    border: 2px solid $bg-color;
+    border-radius: 10px;
+    width: 45.5%;
+    line-height: 4.5rem;
+    text-align: center;
+  }
+  @mixin button0($color){
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    outline: none;
+    font-size: 1.625rem;
+    color: $color;
+  }
+  .footer-left{
+    @include footer-style;
+    background-color: $font-color1;
+    .button1{
+      @include button0($bg-color);
+    }
+  }
+  .footer-right{
+    @include footer-style;
+    background-color:$bg-color;
+    .button2{
+      @include button0($font-color1)
+    }
+  }
+}
