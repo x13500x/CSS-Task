@@ -17,7 +17,7 @@ body {
     margin: 0.5rem auto;
     height: 4.5rem;
     width: 40%;
-    background: #55a8b3;
+    background-color: #55a8b3;
     border-radius: 10px; }
     .header .switch .switch-label {
       position: relative;
