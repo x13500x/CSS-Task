@@ -1,0 +1,206 @@
+@charset "utf-8";
+//引入基础变量
+@import "var";
+//引入混合量
+@import "mixin";
+//正文
+html{
+  @include style1;
+  font-size: 62.5%;
+}
+body{
+  @include style1;
+}
+
+//头部
+.header {
+  background-color: $blue-color;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 320px;
+  .switch {
+    position: relative;
+    margin: 0.5rem auto;
+    height: 4.5rem;
+    width: 40%;
+    background: $blue-color;
+    border-radius: 10px;
+    .switch-label {
+      position: relative;
+      z-index: 2;
+      float: left;
+      width: 50%;
+      line-height: 4.5rem;
+      font-size: 2.125rem;
+      color: $white-color;
+      text-align: center;
+    }
+
+    .switch-input {
+      display: none;
+    }
+
+    .switch-input:checked+.switch-label {
+      color: $blue-color;
+    }
+
+    .switch-input:checked+.switch-label-on~.switch-selection {
+      left: 50%;
+    }
+
+    .switch-selection {
+      display: block;
+      position: absolute;
+      z-index: 1;
+      width: 50%;
+      height: 100%;
+      background: $white-color;
+      @include rounded-corners;
+    }
+  }
+  .button1 {
+    background: url(../image2/location.png);
+    background-size: cover;
+    position: absolute;
+    top: 1.1rem;
+    right: 1.5rem;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+  }
+}
+//主体
+.main {
+  margin-bottom: 8rem;
+  .part1 {
+    @include flex1;
+    @include part($white-color,$border-color);
+    .input1 {
+      width: 33.3%;
+      border-right: 1px $border-color solid;
+      .table1 {
+        @include table($grey-color,$fontSize);
+        width: 100%;
+      }
+    }
+    .input2 {
+      width: 33.3%;
+      overflow: hidden;
+      .table2{
+        @include table($grey-color,$fontSize);
+        width: 98%;
+      }
+    }
+  }
+  .part2{
+    @include part($white-color,$border-color);
+    ul{
+      list-style: none;
+      padding-left: 2rem;
+      li i {
+        background: url(../image2/img3.png) no-repeat;
+        display: inline;
+        float: left;
+        width: 24px;
+        height: 33px;
+        margin-right: 1rem;
+      }
+      li.details1 i {
+            background-position: 0 0;
+          }
+      li.details1 .service {
+            font-size: $fontSize + 0.25rem;
+            color: $dark-color;
+            margin-left: 0.5rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+      li.dp{
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        margin-top: 1rem;
+        margin-bottom: 0.3rem;
+        .date {
+          margin-left: 3.3rem;
+          font-size: 1.75rem;
+          color: $deepdark-color;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .price {
+          float: right;
+          font-size: 1.875rem;
+          color: $red-color;
+          display: flex;
+          justify-content: space-between;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        span i {
+          background-position: 0 -77px;
+          display: inline;
+          float: right;
+          margin-left: 1rem;
+          margin-top: -0.3rem;
+        }
+      }
+      li.details2 i{
+            background-position: 0 -38px;
+          }
+      li.details2 .service {
+            font-size: $fontSize;
+            color: $dark-color;
+            margin-left: 0.5rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+    }
+}
+//底部
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  color: $white-color;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(248, 250, 251);
+  border-top: 1px rgb(219, 229, 231) solid;
+  .footer-left {
+    margin-left: 15%;
+    .button-left{
+      background: url(../image2/home.png) no-repeat;
+      @include button(46px,60px,$blue-color);
+    }
+  }
+
+  .footer-center {
+    margin: auto;
+    .button-center{
+      background: url(../image2/write1.png);
+      background-size: cover;
+      width: 94px;
+      height: 94px;
+      outline: none;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .footer-right {
+    margin-right: 15%;
+    .button-right{
+      background: url(../image2/person.png) no-repeat;
+      @include button(42px,60px,$dark-color)
+    }
+  }
+}
