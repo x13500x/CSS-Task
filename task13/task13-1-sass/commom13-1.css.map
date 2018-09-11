@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,SAAS,EAAE,KAAK;;AAElB,OAAQ;EACN,gBAAgB,ECDF,OAAiB;EDE/B,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,MAAM",
+"sources": ["commom13-1.scss","../_var.scss"],
+"names": [],
+"file": "commom13-1.css"
+}

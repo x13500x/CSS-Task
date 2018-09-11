@@ -1,0 +1,108 @@
+.header .button1 {
+  background: url(../image/2.png);
+  background-size: cover;
+  position: absolute;
+  top: 3.5rem;
+  width: 3.4rem;
+  height: 2.7rem;
+  outline: none;
+  border: none;
+  left: 1.5rem; }
+
+.main {
+  background-color: #f0f0f0;
+  padding-bottom: 8rem;
+  padding-top: 1.75rem; }
+  .main .box1 {
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+    margin: 0 auto 1.75rem;
+    width: 90%;
+    vertical-align: middle;
+    text-align: center;
+    height: 10rem; }
+    .main .box1 .last {
+      font-size: 3rem;
+      color: #9a9a9a;
+      line-height: 10rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .main .box1 .button2 {
+      background: url(../image/return.png);
+      background-size: cover;
+      position: absolute;
+      top: 14.3rem;
+      width: 1.8rem;
+      height: 3rem;
+      outline: none;
+      border: none;
+      right: 7%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+  .main .main-bottom {
+    margin: 1rem auto;
+    width: 90%;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+    background-color: #ffffff; }
+    .main .main-bottom .button4 {
+      background: url(../image/next.png);
+      background-size: cover;
+      position: absolute;
+      top: 53rem;
+      width: 2.8rem;
+      height: 5.6rem;
+      outline: none;
+      border: none;
+      right: 6%; }
+    .main .main-bottom .box2 {
+      border-bottom: 1px solid #fbb435;
+      margin: 1rem auto;
+      vertical-align: middle;
+      text-align: center;
+      height: 9rem; }
+      .main .main-bottom .box2 .game {
+        font-size: 3.5rem;
+        color: #fbb435;
+        line-height: 9rem; }
+    .main .main-bottom .box3 {
+      border: none;
+      background-color: #69d1e9;
+      margin: 2rem auto;
+      width: 80%;
+      vertical-align: middle; }
+      .main .main-bottom .box3 .button3 {
+        outline: none;
+        border: none;
+        height: 10rem;
+        font-size: 3rem;
+        color: #ffffff;
+        background-color: transparent; }
+    .main .main-bottom .data {
+      font-size: 2rem;
+      color: #9a9a9a;
+      margin: 0 auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .main .main-bottom .bottom {
+      height: 18px;
+      margin: 0.5rem auto; }
+      .main .main-bottom .bottom .circle1 {
+        border-radius: 50%;
+        background-color: #69d1e9;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1rem;
+        display: inline-block; }
+      .main .main-bottom .bottom .circle2 {
+        border-radius: 50%;
+        background-color: #f0f0f0;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1rem;
+        display: inline-block; }
+
+/*# sourceMappingURL=main13-1.css.map */

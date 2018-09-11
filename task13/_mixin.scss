@@ -1,0 +1,63 @@
+@charset "utf-8";
+@mixin flex1{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+@mixin rounded-corners {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+@mixin part ($color1,$color2){
+  background-color: $color1;
+  padding:{
+    top: 1rem;
+    bottom: 1rem;
+  }
+  border-bottom: 1px $color2 solid;
+}
+@mixin table ($color,$size){
+  border: none;
+  outline: none;
+  font-size: $size;
+  color: $color;
+  text-align: center;
+  text-align-last: center;
+  background: transparent;
+}
+@mixin button ($top,$width,$height){
+  background-size: cover;
+  position: absolute;
+  top: $top;
+  width: $width;
+  height: $height;
+  outline: none;
+  border: none;
+}
+@mixin circle($color){
+  border-radius: 50%;
+  background-color: $color;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+@mixin box-p2($top){
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top:$top;
+  &::before,&::after{
+    content: "";
+    display: block;
+  }
+}
+@mixin pic{
+  background-size: cover;
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%
+}
