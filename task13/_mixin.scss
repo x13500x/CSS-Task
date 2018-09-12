@@ -1,31 +1,16 @@
 @charset "utf-8";
+@import "var";
 @mixin flex1{
   display: flex;
   align-items: center;
   vertical-align: middle;
 }
-@mixin rounded-corners {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+@mixin rounded-corners($radius){
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
 }
-@mixin part ($color1,$color2){
-  background-color: $color1;
-  padding:{
-    top: 1rem;
-    bottom: 1rem;
-  }
-  border-bottom: 1px $color2 solid;
-}
-@mixin table ($color,$size){
-  border: none;
-  outline: none;
-  font-size: $size;
-  color: $color;
-  text-align: center;
-  text-align-last: center;
-  background: transparent;
-}
+
 @mixin button ($top,$width,$height){
   background-size: cover;
   position: absolute;
@@ -35,13 +20,16 @@
   outline: none;
   border: none;
 }
-@mixin circle($color){
+@mixin circle($color1,$width,$height,$mr,$color2){
   border-radius: 50%;
-  background-color: $color;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-right: 1rem;
+  background-color: $color1;
+  width: $width;
+  height: $height;
+  margin-right: $mr;
   display: inline-block;
+  &:hover{
+    background-color: $color2;
+  }
 }
 @mixin box-p2($top){
   width: 100%;
@@ -60,4 +48,41 @@
   width: 20%;
   height: 0;
   padding-bottom: 20%
+}
+@mixin header-center ($size,$lh){
+  font-size: $size;
+  color: $white-color;
+  line-height: $lh;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin footer-p3-rl ($color){
+  @include rounded-corners(10px);
+  width: 42%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: $color;
+}
+%onemore-share{
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  outline: none;
+  font-size: 2rem;
+  color: $white-color;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: keep-all;
+  text-decoration: none;
+}
+@mixin day-time($float,$top,$bottom,$size,$color){
+  float: $float;
+  margin-top: $top;
+  margin-bottom: $bottom;
+  font-size: $size;
+  color: $color;
 }

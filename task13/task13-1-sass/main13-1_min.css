@@ -2,17 +2,17 @@
   background: url(../image/2.png);
   background-size: cover;
   position: absolute;
-  top: 3.5rem;
-  width: 3.4rem;
-  height: 2.7rem;
+  top: 1.75rem;
+  width: 1.7rem;
+  height: 1.35rem;
   outline: none;
   border: none;
-  left: 1.5rem; }
+  left: 1rem; }
 
 .main {
   background-color: #f0f0f0;
-  padding-bottom: 8rem;
-  padding-top: 1.75rem; }
+  padding-bottom: 1.8rem;
+  padding-top: 1rem; }
   .main .box1 {
     border: 1px solid #c9c9c9;
     background-color: #ffffff;
@@ -20,11 +20,11 @@
     width: 90%;
     vertical-align: middle;
     text-align: center;
-    height: 10rem; }
+    height: 5rem; }
     .main .box1 .last {
-      font-size: 3rem;
+      font-size: 2rem;
       color: #9a9a9a;
-      line-height: 10rem;
+      line-height: 5rem;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
@@ -32,9 +32,9 @@
       background: url(../image/return.png);
       background-size: cover;
       position: absolute;
-      top: 14.3rem;
-      width: 1.8rem;
-      height: 3rem;
+      top: 7.3rem;
+      width: 0.9rem;
+      height: 1.5rem;
       outline: none;
       border: none;
       right: 7%;
@@ -51,62 +51,61 @@
       background: url(../image/next.png);
       background-size: cover;
       position: absolute;
-      top: 53rem;
-      width: 2.8rem;
-      height: 5.6rem;
+      top: 28rem;
+      width: 1.4rem;
+      height: 2.8rem;
       outline: none;
       border: none;
       right: 6%; }
     .main .main-bottom .box2 {
       border-bottom: 1px solid #fbb435;
-      margin: 1rem auto;
+      margin: 0.5rem auto;
       vertical-align: middle;
       text-align: center;
-      height: 9rem; }
+      height: 4.5rem; }
       .main .main-bottom .box2 .game {
-        font-size: 3.5rem;
+        font-size: 1.75rem;
         color: #fbb435;
-        line-height: 9rem; }
+        line-height: 4.5rem; }
     .main .main-bottom .box3 {
       border: none;
       background-color: #69d1e9;
-      margin: 2rem auto;
+      margin: 1rem auto;
       width: 80%;
       vertical-align: middle; }
       .main .main-bottom .box3 .button3 {
         outline: none;
         border: none;
-        height: 10rem;
-        font-size: 3rem;
+        height: 5rem;
+        font-size: 1.5rem;
         color: #ffffff;
         background-color: transparent; }
     .main .main-bottom .data {
-      font-size: 2rem;
+      font-size: 1rem;
       color: #9a9a9a;
       margin: 0 auto;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
     .main .main-bottom .bottom {
-      height: 18px;
-      margin: 0.5rem auto; }
+      margin: 0.3rem auto; }
       .main .main-bottom .bottom .circle1 {
         border-radius: 50%;
         background-color: #69d1e9;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 1rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-right: 0.5rem;
         display: inline-block; }
         .main .main-bottom .bottom .circle1:hover {
           background-color: #69d1e9; }
       .main .main-bottom .bottom .circle2 {
         border-radius: 50%;
         background-color: #f0f0f0;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 1rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-right: 0.5rem;
         display: inline-block; }
         .main .main-bottom .bottom .circle2:hover {
           background-color: #69d1e9; }
 
-/*# sourceMappingURL=main13-1.css.map */
+/*# sourceMappingURL=main13-1_min.css.map */
