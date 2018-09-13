@@ -7,45 +7,64 @@
     <link href="reset.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="task13-1-sass/common13-1_min.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="task13-1-sass/main13-1_min.css" />
+    <link rel="stylesheet" type="text/css"  href="task13-1-sass/sidebar.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 640px)" href="task13-1-sass/common13-1.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 640px)" href="task13-1-sass/main13-1.css" />
     <title>游戏1</title>
 </head>
 
 <body>
-    <div class="header">
-        <button type="button" class="button1"></button>
-    </div>
-    <div class="main">
-        <div class="box1">
-            <div class="last">上次游戏：捉鬼猜词版</div>
-            <button type="button" class="button2" onclick="window.location='task13-2.html'" target="blank"></button>
-        </div>
-        <div class="main-bottom">
-            <button type="button" class="button4"></button>
-            <div class="box2">
-                <span class="game">捉鬼游戏</span>
-            </div>
-            <div class="box3">
-                <button type="button" class="button3">简化版</button>
-            </div>
-            <span class="data">有1133个用户正在玩此款游戏</span>
-            <div class="box3">
-                <button type="button" class="button3">猜词版</button>
-            </div>
-            <span class="data">有1133个用户正在玩此款游戏</span>
-            <div class="box3">
-                <button type="button" class="button3">白痴版</button>
-            </div>
-            <span class="data">有1133个用户正在玩此款游戏</span>
-            <div class="bottom">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle2"></div>
-                <div class="circle2"></div>
-            </div>
-        </div>
-    </div>
+<input type="checkbox" id="menu" />
+<label for="menu" class="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+<nav class="nav">
+    <ul>
+        <li><a href="#">公告</a></li>
+        <li><a href="#">设置</a></li>
+        <li><a href="#">帮助</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</nav>
+   <div class="main-all">
+       <div class="header">
+           <button type="button" class="button1"></button>
+       </div>
+       <div class="main">
+           <div class="box1">
+               <div class="last">上次游戏：捉鬼猜词版</div>
+               <button type="button" class="button2" onclick="window.location='task13-2.html'" target="blank"></button>
+           </div>
+           <div class="main-bottom">
+               <button type="button" class="button4"></button>
+               <div class="box2">
+                   <span class="game">捉鬼游戏</span>
+               </div>
+               <div class="box3">
+                   <button type="button" class="button3">简化版</button>
+               </div>
+               <span class="data">有1133个用户正在玩此款游戏</span>
+               <div class="box3">
+                   <button type="button" class="button3">猜词版</button>
+               </div>
+               <span class="data">有1133个用户正在玩此款游戏</span>
+               <div class="box3">
+                   <button type="button" class="button3">白痴版</button>
+               </div>
+               <span class="data">有1133个用户正在玩此款游戏</span>
+               <div class="bottom">
+                   <div class="circle1"></div>
+                   <div class="circle2"></div>
+                   <div class="circle2"></div>
+                   <div class="circle2"></div>
+               </div>
+           </div>
+       </div>
+   </div>
+
 </body>
 
 </html>
