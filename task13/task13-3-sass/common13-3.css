@@ -47,6 +47,35 @@ html {
     outline: none;
     border: none;
     right: 1.5rem; }
+  @media screen and (max-width: 640px) {
+    .header {
+      height: 4.4rem; }
+      .header .button-p3-1 {
+        background-size: cover;
+        position: absolute;
+        top: 1.4rem;
+        width: 2.5rem;
+        height: 2rem;
+        outline: none;
+        border: none;
+        left: 0.75rem; }
+      .header .header-center {
+        font-size: 1.7rem;
+        color: #ffffff;
+        line-height: 4.4rem;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .header .button-p3-2 {
+        background-size: cover;
+        position: absolute;
+        top: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+        outline: none;
+        border: none;
+        right: 0.75rem; } }
 
 .footer-p3 {
   display: flex;
@@ -58,7 +87,8 @@ html {
   margin: 0 auto;
   background-color: rgba(105, 209, 233, 0.5);
   padding-bottom: 2rem;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  }
   .footer-p3:before, .footer-p3:after {
     content: "";
     display: block; }
@@ -80,5 +110,9 @@ html {
     padding-top: 1rem;
     text-align: center;
     background-color: #fbb435; }
+  @media screen and (max-width: 640px) {
+    .footer-p3 {
+      padding-bottom: 2rem;
+      padding-top: 2rem; } }
 
 /*# sourceMappingURL=common13-3.css.map */

@@ -1,24 +1,23 @@
 .menu {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
+  width: 60px;
+  height: 60px;
   transition: transform 250ms ease;
   cursor: pointer;
   z-index: 200; }
   .menu span {
     position: relative;
     display: block;
-    width: 50%;
-    height: 2px;
-    background-color: #444;
+    width: 60%;
+    height: 4px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
     float: left;
     transform-origin: center center;
     transition: transform 250ms ease;
@@ -27,6 +26,15 @@
       transform: translateY(-5px); }
     .menu span:nth-of-type(3) {
       transform: translateY(5px); }
+  @media screen and (max-width: 640px) {
+    .menu {
+      top: 8px;
+      left: 20px;
+      width: 40px;
+      height: 40px; }
+      .menu span {
+        height: 3px;
+        margin-bottom: 1px; } }
 
 #menu {
   display: none; }
@@ -37,12 +45,6 @@
   #menu:checked ~ .menu span {
     background-color: white;
     transition: transform 250ms ease; }
-  #menu:checked ~ .menu span:nth-of-type(1) {
-    transform: translateY(1px) rotate(45deg); }
-  #menu:checked ~ .menu span:nth-of-type(2) {
-    display: none; }
-  #menu:checked ~ .menu span:nth-of-type(3) {
-    transform: translateY(-1px) rotate(-45deg); }
   #menu:checked ~ .nav {
     left: 0;
     transition: left 500ms ease; }
@@ -64,19 +66,27 @@
   .nav ul {
     position: relative;
     list-style-type: none;
-    margin: 100px 0;
+    margin: 0;
     padding: 0; }
   .nav li {
     position: relative;
     display: block;
     border-bottom: 1px solid #c9c9c9; }
+    .nav li .side {
+      float: left;
+      margin-top: 1rem;
+      margin-left: 1rem; }
+    .nav li .step {
+      float: right;
+      margin-top: -3.5rem;
+      margin-right: 2rem; }
     .nav li a {
       position: relative;
       display: block;
-      margin: 0;
-      padding: 15px 20px;
+      margin: 0 5rem;
+      padding: 20px 0;
       color: #69d1e9;
-      font-size: 14px;
+      font-size: 1.5rem;
       font-weight: bold;
       text-decoration: none;
       text-transform: uppercase; }

@@ -8,11 +8,22 @@
   outline: none;
   border: none;
   left: 1.5rem; }
+  @media screen and (max-width: 640px) {
+    .header .button1 {
+      background-size: cover;
+      position: absolute;
+      top: 1.75rem;
+      width: 1.7rem;
+      height: 1.35rem;
+      outline: none;
+      border: none;
+      left: 1rem; } }
 
 .main {
   background-color: #f0f0f0;
   padding-bottom: 8rem;
-  padding-top: 1.75rem; }
+  padding-top: 1.75rem;
+  }
   .main .box1 {
     border: 1px solid #c9c9c9;
     background-color: #ffffff;
@@ -20,7 +31,8 @@
     width: 90%;
     vertical-align: middle;
     text-align: center;
-    height: 10rem; }
+    height: 10rem;
+    }
     .main .box1 .last {
       font-size: 3rem;
       color: #9a9a9a;
@@ -40,7 +52,8 @@
       right: 7%;
       overflow: hidden;
       text-overflow: ellipsis;
-      white-space: nowrap; }
+      white-space: nowrap;
+      }
   .main .main-bottom {
     margin: 1rem auto;
     width: 90%;
@@ -108,5 +121,65 @@
         display: inline-block; }
         .main .main-bottom .bottom .circle2:hover {
           background-color: #69d1e9; }
+  @media screen and (max-width: 640px) {
+    .main {
+      padding-bottom: 2rem;
+      padding-top: 1rem; }
+      .main .box1 {
+        height: 5rem;
+        }
+        .main .box1 .last {
+          font-size: 2rem;
+          line-height: 5rem;
+          }
+        .main .box1 .button2 {
+          background-size: cover;
+          position: absolute;
+          top: 7.3rem;
+          width: 0.9rem;
+          height: 1.5rem;
+          outline: none;
+          border: none; }
+      .main .main-bottom .button4 {
+        background-size: cover;
+        position: absolute;
+        top: 28rem;
+        width: 1.4rem;
+        height: 2.8rem;
+        outline: none;
+        border: none; }
+      .main .main-bottom .box2 {
+        margin: 0.5rem auto;
+        height: 4.5rem; }
+        .main .main-bottom .box2 .game {
+          font-size: 1.75rem;
+          line-height: 4.5rem; }
+      .main .main-bottom .box3 {
+        margin: 1rem auto; }
+        .main .main-bottom .box3 .button3 {
+          height: 5rem;
+          font-size: 1.5rem; }
+      .main .main-bottom .data {
+        font-size: 1rem; }
+      .main .main-bottom .bottom {
+        margin: 0.3rem auto; }
+        .main .main-bottom .bottom .circle1 {
+          border-radius: 50%;
+          background-color: #69d1e9;
+          width: 0.75rem;
+          height: 0.75rem;
+          margin-right: 0.5rem;
+          display: inline-block; }
+          .main .main-bottom .bottom .circle1:hover {
+            background-color: #69d1e9; }
+        .main .main-bottom .bottom .circle2 {
+          border-radius: 50%;
+          background-color: #f0f0f0;
+          width: 0.75rem;
+          height: 0.75rem;
+          margin-right: 0.5rem;
+          display: inline-block; }
+          .main .main-bottom .bottom .circle2:hover {
+            background-color: #69d1e9; } }
 
 /*# sourceMappingURL=main13-1.css.map */

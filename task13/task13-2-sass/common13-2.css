@@ -34,6 +34,35 @@ html {
     outline: none;
     border: none;
     right: 1.5rem; }
+  @media screen and (max-width: 640px) {
+    .header {
+      height: 4.4rem; }
+      .header .button-p2-1 {
+        background-size: cover;
+        position: absolute;
+        top: 1.3rem;
+        width: 2rem;
+        height: 2rem;
+        outline: none;
+        border: none;
+        left: 0.75rem; }
+      .header .header-center {
+        font-size: 2.2rem;
+        color: #ffffff;
+        line-height: 4.4rem;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .header .button-p2-2 {
+        background-size: cover;
+        position: absolute;
+        top: 1.5rem;
+        width: 1.8rem;
+        height: 1.8rem;
+        outline: none;
+        border: none;
+        right: 0.75rem; } }
 
 .footer-p2 {
   position: fixed;
@@ -58,5 +87,14 @@ html {
       color: white;
       background-color: transparent;
       line-height: 8rem; }
+  @media screen and (max-width: 640px) {
+    .footer-p2 {
+      height: 7.5rem; }
+      .footer-p2 .footer-p2-center {
+        height: 4rem;
+        margin: 2rem auto; }
+        .footer-p2 .footer-p2-center a .button-p2-bottom {
+          font-size: 2rem;
+          line-height: 4rem; } }
 
 /*# sourceMappingURL=common13-2.css.map */

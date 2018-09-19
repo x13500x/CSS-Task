@@ -59,6 +59,18 @@
         padding-bottom: 20%; }
   .main-p2 .box-p2-3-1 .box-p2-4:hover .element1, .main-p2 .box-p2-3 .box-p2-4:hover .element1 {
     display: block; }
+  @media screen and (max-width: 640px) {
+    .main-p2 .box-p2-3-1 .box-p2-4 .gamer, .main-p2 .box-p2-3 .box-p2-4 .gamer {
+      border: 0.2rem #ffffff solid; }
+      .main-p2 .box-p2-3-1 .box-p2-4 .gamer .status, .main-p2 .box-p2-3 .box-p2-4 .gamer .status {
+        font-size: 1.8rem;
+        line-height: 6rem; }
+      .main-p2 .box-p2-3-1 .box-p2-4 .gamer .number, .main-p2 .box-p2-3 .box-p2-4 .gamer .number {
+        font-size: 1.4rem;
+        height: 1.3rem;
+        line-height: 1.3rem; }
+    .main-p2 .box-p2-3-1 .box-p2-4 .element1 .element, .main-p2 .box-p2-3 .box-p2-4 .element1 .element {
+      margin-top: 8%; } }
 
 .vote {
   display: flex;
@@ -80,6 +92,18 @@
     background-size: cover;
     margin-top: 2rem;
     margin-right: 1.2rem; }
+  @media screen and (max-width: 640px) {
+    .vote {
+      height: 4.1rem; }
+      .vote .over {
+        line-height: 4.1rem;
+        font-size: 1.5rem;
+        margin-left: 1.6rem; }
+      .vote .btn-audio {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-top: 0.8rem;
+        margin-right: 0.6rem; } }
 
 .main-p2 {
   background-color: #69d1e9;
@@ -117,5 +141,16 @@
     .main-p2 .box-p2-3::before, .main-p2 .box-p2-3::after {
       content: "";
       display: block; }
+  @media screen and (max-width: 640px) {
+    .main-p2 {
+      padding-bottom: 13rem;
+      }
+      .main-p2 .click {
+        width: 0.75rem;
+        left: 2.75rem; }
+      .main-p2 .most {
+        font-size: 1.4rem;
+        margin-left: 2.75rem;
+        padding-top: 1rem; } }
 
 /*# sourceMappingURL=main13-2.css.map */
