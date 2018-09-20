@@ -39,6 +39,8 @@
 #menu {
   display: none; }
   #menu:checked ~ .menu {
+    display: block;
+    left: 0;
     background-color: transparent;
     transform: rotate(360deg);
     transition: transform 250ms ease; }
@@ -46,14 +48,17 @@
     background-color: white;
     transition: transform 250ms ease; }
   #menu:checked ~ .nav {
+    display: block;
     left: 0;
     transition: left 500ms ease; }
   #menu:checked ~ .main-all {
     transform: translateX(60%);
-    transition: transform 500ms ease; }
+    transition: transform 500ms ease;
+    }
 
 .nav {
-  position: fixed;
+  display: none;
+  position: absolute;
   top: 0;
   left: -60%;
   width: 60%;

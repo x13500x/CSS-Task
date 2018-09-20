@@ -4,6 +4,10 @@ html {
   min-width: 320px;
   margin: 0 auto; }
 
+.max {
+  position: relative;
+  overflow: hidden; }
+
 .header .button1 {
   background: url(../image/2.png);
   background-size: cover;
@@ -27,7 +31,7 @@ html {
 
 .main {
   background-color: #f0f0f0;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
   padding-top: 1.75rem; }
   .main .box1 {
     position: relative;
@@ -37,11 +41,11 @@ html {
     width: 90%;
     vertical-align: middle;
     text-align: center;
-    height: 10rem; }
+    height: 8rem; }
     .main .box1 .last {
       font-size: 3rem;
       color: #9a9a9a;
-      line-height: 10rem;
+      line-height: 8rem;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
@@ -49,7 +53,7 @@ html {
       background: url(../image/return.png);
       background-size: cover;
       position: absolute;
-      top: 3.5rem;
+      top: 2.9rem;
       width: 1.8rem;
       height: 3rem;
       outline: none;
