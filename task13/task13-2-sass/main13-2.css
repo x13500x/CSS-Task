@@ -1,3 +1,9 @@
+html {
+  font-size: 62.5%;
+  max-width: 760px;
+  min-width: 320px;
+  margin: 0 auto; }
+
 .main-p2 .box-p2-3-1 .box-p2-4, .main-p2 .box-p2-3 .box-p2-4 {
   width: 25%;
   height: 0;
@@ -106,6 +112,7 @@
         margin-right: 0.6rem; } }
 
 .main-p2 {
+  position: relative;
   background-color: #69d1e9;
   padding-bottom: 15rem; }
   .main-p2 .click {
@@ -143,8 +150,7 @@
       display: block; }
   @media screen and (max-width: 640px) {
     .main-p2 {
-      padding-bottom: 13rem;
-      }
+      padding-bottom: 13rem; }
       .main-p2 .click {
         width: 0.75rem;
         left: 2.75rem; }

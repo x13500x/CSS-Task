@@ -1,7 +1,5 @@
-html {
-  font-size: 62.5%; }
-
 .header {
+  position: relative;
   background-color: #5fc0cd;
   overflow: hidden;
   margin: 0 auto;

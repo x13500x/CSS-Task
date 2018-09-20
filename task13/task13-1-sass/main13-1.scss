@@ -17,6 +17,7 @@
   padding-bottom: 8rem;
   padding-top: 1.75rem;
   .box1{
+    position:relative;
     border: 1px solid $border-color;
     background-color: $white-color;
     margin: 0 auto 1.75rem;
@@ -34,7 +35,7 @@
     }
     .button2{
       background: url(../image/return.png);
-      @include button(14.3rem,1.8rem,3rem);
+      @include button(3.5rem,1.8rem,3rem);
       right:7%;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -42,6 +43,7 @@
     }
   }
   .main-bottom {
+    position: relative;
     margin: 1rem auto;
     width: 90%;
     border: 1px solid $border-color;
@@ -49,8 +51,8 @@
     background-color: $white-color;
     .button4{
       background: url(../image/next.png);
-      @include button(53rem,2.8rem,5.6rem);
-      right:6%;
+      @include button(30rem,2.8rem,5.6rem);
+      right:2%;
     }
     .box2 {
       border-bottom: 1px solid $yellow-color;
@@ -108,12 +110,12 @@
         line-height: 5rem;
       }
       .button2{
-        @include button(7.3rem,0.9rem,1.5rem);
+        @include button(1.8rem,0.9rem,1.5rem);
       }
     }
     .main-bottom{
       .button4{
-        @include button(28rem,1.4rem,2.8rem);
+        @include button(15.3rem,1.4rem,2.8rem);
       }
       .box2{
         margin: 0.5rem auto;

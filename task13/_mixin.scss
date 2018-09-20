@@ -1,5 +1,13 @@
 @charset "utf-8";
 @import "var";
+
+html{
+  font-size: 62.5%;
+  max-width:760px;
+  min-width:320px;
+  margin:0 auto;
+}
+
 @mixin flex1{
   display: flex;
   align-items: center;
@@ -20,6 +28,7 @@
   outline: none;
   border: none;
 }
+
 @mixin circle($color1,$width,$height,$mr,$color2){
   border-radius: 50%;
   background-color: $color1;

@@ -116,6 +116,8 @@
   width: 100%;
   position: fixed;
   bottom: 0;
+  max-width:760px;
+  min-width:320px;
   .bottom-p3-left{
     @include day-time(left,0rem,1rem,3rem,$blue-color);
     margin-left: 5%;

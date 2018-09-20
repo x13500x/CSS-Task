@@ -1,3 +1,9 @@
+html {
+  font-size: 62.5%;
+  max-width: 760px;
+  min-width: 320px;
+  margin: 0 auto; }
+
 .footer-p3 .footer-p3-left .onemore, .footer-p3 .footer-p3-right .share {
   background-color: transparent;
   border: 0;
@@ -11,10 +17,8 @@
   word-break: keep-all;
   text-decoration: none; }
 
-html {
-  font-size: 62.5%; }
-
 .header {
+  position: relative;
   background-color: #5fc0cd;
   overflow: hidden;
   margin: 0 auto;
@@ -82,13 +86,14 @@ html {
   justify-content: space-between;
   position: fixed;
   color: #ffffff;
+  max-width: 760px;
+  min-width: 320px;
   bottom: 0;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(105, 209, 233, 0.5);
   padding-bottom: 2rem;
-  padding-top: 2rem;
-  }
+  padding-top: 2rem; }
   .footer-p3:before, .footer-p3:after {
     content: "";
     display: block; }
