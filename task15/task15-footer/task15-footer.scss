@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import "../task15-helper/mixin";
+@import "../task15-helper/var";
+footer{
+  background: $green-c;
+  color: $white-c;
+  font-size: $size;
+  .tree {
+  }
+  .about {
+    display: inline-flex;
+    margin-top: 5rem;
+    .about1 {
+      border-right: 1px solid white;
+      padding-right: 1rem;
+      margin-right: 1rem;
+    }
+    a{
+      color: $white-c;
+      cursor: pointer;
+    }
+    @media (max-width:991px) {
+      margin-top: 2rem;
+    }
+  }
+  .web-box {
+    >div{
+      margin: 2rem 0;
+      @media (max-width:991px) {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 15px;
+      }
+    }
+  }
+    .web-a {
+      margin-top: 1.8rem;
+    }
+    .web-b {
+      color: white;
+      padding-right: 2rem;
+    }
+
+  .qrcode1 {
+    margin-bottom: 1rem;
+  }
+  .qrcode2{
+    img{
+      width: 92px;
+      height: 92px;
+    }
+  }
+  .infor {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: $size - 0.4rem;
+  }
+}

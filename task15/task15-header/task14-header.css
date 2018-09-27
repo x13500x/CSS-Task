@@ -1,0 +1,190 @@
+.headertopbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertop {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(41, 176, 120);
+    line-height: 35px;
+}
+
+.element {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.weixin {
+    background: url(image/weixin.jpg);
+}
+
+.qq {
+    background: url(image/qq.jpg);
+}
+
+.weibo {
+    background: url(image/weibo.png);
+}
+
+.weibo,
+.weixin,
+.qq {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.logo {
+    background: url(image/logo.png);
+    background-size: contain;
+    width: 108px;
+    height: 49px;
+    margin-top: 4.5%;
+}
+
+.headerbottom {
+    background-color: rgb(41, 176, 120);
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background: transparent;
+}
+
+.navbar-brand {
+    max-width: 108px;
+    margin-top: 0;
+    padding: 25px 0;
+}
+
+.navbar-default .navbar-nav>li {
+    padding: 0 10px;
+    list-style-image: none;
+}
+
+.navbar-default .navbar-nav>li:last-child {
+    padding: 0 0 0 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    display: block;
+    height: 97px;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 93px;
+    border-bottom: 4px solid #29b078;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-nav>li.active>a.nav-item1,
+.navbar-default .navbar-nav>li.active>a.nav-item2,
+.navbar-default .navbar-nav>li.active>a.nav-item3,
+.navbar-default .navbar-nav>li.active>a.nav-item4 {
+    border-bottom: 4px solid #eee;
+}
+
+.navbar-default .navbar-nav>li.active>a {
+    color: #fff;
+    background: #29b078;
+}
+
+.navbar-default .navbar-nav>li.active>a:hover {
+    color: #fff;
+    background: #29b078;
+    border-bottom: 4px solid #eee;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-default .navbar-nav>li>a {
+        height: 68px;
+        line-height: 72px;
+    }
+    .navbar-brand {
+        width: 90%;
+        padding-top: 11px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-nav-wrap,
+    .navbar {
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .navbar-default .navbar-nav>li.active>a.nav-item1,
+    .navbar-default .navbar-nav>li.active>a.nav-item2,
+    .navbar-default .navbar-nav>li.active>a.nav-item3,
+    .navbar-default .navbar-nav>li.active>a.nav-item4 {
+        border-bottom: 0 solid #eee;
+    }
+    .navbar-header{
+        height:68px;
+    }
+    .navbar-brand {
+        width: 90%;
+        padding-top: 16px;
+    }
+
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        float: none;
+        width: 100%;
+        margin: 0;
+        background: rgb(41, 176, 120);
+        border: none;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li:last-child {
+        padding: 0 25px;
+    }
+    .navbar-default .navbar-nav>li a {
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        filter: alpha(opacity:90);
+        opacity: 0.9;
+        z-index: 9999;
+    }
+
+    .navbar-default .navbar-nav>li.active>a {
+        color: #fff;
+        border: none;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        background: #26a728;
+        border: none;
+    }
+    .navbar-default .navbar-nav li.active a:hover {
+        background: #3cb93e !important;
+        border: none;
+    }
+    .navbar .navbar-toggle {
+        border: 0;
+        background: #f5f5f5;
+        margin-top:1.3rem;
+        padding:1rem;
+    }
+
+    .navbar .navbar-toggle:hover {
+        background: #f5f5f5;
+    }
+}

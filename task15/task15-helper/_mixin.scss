@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import "var";
+
+%flex-sb-c{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+%flex-sa-c{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+%flex-c-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin rounded-corners($radius){
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}

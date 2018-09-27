@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import "../task15-helper/mixin";
+@import "../task15-helper/var";
+@mixin menu-icon {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  width: 30px;
+  height: 19px;
+  border-top: 3px solid $grey-c;
+  border-bottom: 3px solid $grey-c;
+  background-color: $grey-c;
+  padding: 5px 0;
+  background-clip: content-box;
+}
+.header-bottom{
+  background: $green-c;
+  font-size: $size;
+}
+nav{
+
+}
+.nav-logo{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  float: left;
+}
+
+input{
+  display: none;
+  &:checked ~ .nav-collapse{
+    display: block;
+    width: 100%;
+    height: 160px !important;
+  }
+}
+.nav-toggle {
+  display: none;
+  span{
+    cursor: pointer;
+    @include menu-icon;
+  }
+  @media screen and (max-width: 768px) {
+    @include rounded-corners(5px);
+    display: block;
+    float: right;
+    margin-top: 2.3rem;
+    background: $white-c;
+  }
+}
+.nav-collapse{
+  width: 40%;
+  float: right;
+  ul{
+    @extend %flex-sb-c;
+    li{
+      display:inline-block;
+      padding: 38.5px 15px;
+      border-bottom: transparent 4px solid;
+      a{
+        color: $white-c;
+      }
+      &:hover{
+        border-bottom: $white-c 4px solid;
+      }
+    }
+  }
+  @media screen and (max-width: 768px){
+    display: none;
+    .nav-list{
+      display: flex;
+      flex-direction:column;
+      li{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+      }
+    }
+  }
+}

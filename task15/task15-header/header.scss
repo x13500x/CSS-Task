@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import "../task15-helper/mixin";
+@import "../task15-helper/var";
+%header-pic{
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 5px;
+}
+.header-box{
+  @extend %flex-sb-c;
+  .header-left{
+    color: $green-c;
+    font-size: $size - 0.2rem;
+    line-height: 35px;
+  }
+  .header-right{
+    vertical-align: middle;
+    text-align: right;
+    .weixin {
+      background: url(image/weixin.jpg);
+      @extend %header-pic;
+    }
+    .qq {
+      background: url(image/qq.jpg);
+      @extend %header-pic;
+    }
+    .weibo {
+      background: url(image/weibo.png);
+      @extend %header-pic;
+    }
+  }
+}
