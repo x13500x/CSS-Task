@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+@file:技能树主页
+@author:谢宏忠
+@update:
+@copyright:
+*/
+// helpers 变量、mixin
+@import "task15-helper/mixin";
+@import "task15-helper/var";
+// 重置样式 reset
+@import "task15-base/reset";
+// 页面布局
+@import "task15-layout/grid";
+@import "task15-header/header";
+@import "task15-component/nav";
+@import "task15-2-main/task15-2-main";
+@import "task15-footer/task15-footer";

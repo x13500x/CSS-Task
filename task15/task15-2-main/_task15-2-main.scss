@@ -46,8 +46,11 @@
         &:hover::before{
           background: $yellow-c;
         }
-        a:hover{
-          color: $yellow-c;
+        a{
+          cursor: pointer;
+          &:hover{
+            color: $yellow-c;
+          }
         }
       }
   }

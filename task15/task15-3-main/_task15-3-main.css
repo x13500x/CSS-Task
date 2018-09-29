@@ -1,0 +1,146 @@
+.job .job-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.page, .direction, .subheader {
+  border-bottom: #d0d6d9 1px solid; }
+
+.job .job-tr2 td:nth-child(1) span:nth-child(2), .job .job-tr2 td:nth-child(2) span:nth-child(2), .job .job-tr2 td:nth-child(2) span:nth-child(3) {
+  background: url("../task15-3-main/image/star.png");
+  width: 16px;
+  height: 15px;
+  display: inline-block; }
+
+table, td, tr {
+  border: 1px #d0d6d9 solid;
+  border-collapse: collapse; }
+
+.page {
+  padding: 2rem 0;
+  font-size: 1.4rem; }
+  .page a:nth-child(2) {
+    color: #29b078; }
+
+.direction {
+  display: flex;
+  width: 100%;
+  margin: 0 15px;
+  padding: 2rem 0;
+  font-size: 1.6rem; }
+  @media screen and (max-width: 767px) {
+    .direction {
+      margin-bottom: 0; } }
+  .direction span {
+    margin-right: 2rem; }
+    @media screen and (max-width: 767px) {
+      .direction span {
+        position: absolute; } }
+  .direction ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 767px) {
+      .direction ul {
+        margin-left: 6rem; } }
+    .direction ul li {
+      margin-right: 2rem; }
+      @media screen and (max-width: 767px) {
+        .direction ul li {
+          margin-bottom: 1.5rem; } }
+      .direction ul li a {
+        cursor: pointer; }
+        .direction ul li a:hover {
+          color: #fff;
+          background: #29b078; }
+        .direction ul li a:active {
+          background: #ff650e; }
+
+.subheader {
+  width: 100%;
+  padding: 2rem 0; }
+
+.job-direction {
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
+
+.job {
+  border: #999999 1px solid;
+  color: #999999; }
+  .job span {
+    margin-left: 1rem; }
+  .job td {
+    padding: 10px 0; }
+  .job .job-head {
+    flex-shrink: 0; }
+    .job .job-head div:nth-child(1) {
+      margin: 1rem; }
+      .job .job-head div:nth-child(1) .job-pic {
+        display: block;
+        background-size: cover;
+        width: 90px;
+        height: 90px; }
+    .job .job-head div:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 1rem 1rem 0; }
+      .job .job-head div:nth-child(2) h3 {
+        margin-bottom: 1rem; }
+  .job .job-tr3 td span:nth-child(2) {
+    color: red; }
+  .job .job-tr3 td span:nth-child(3) {
+    margin-left: 0; }
+  .job .job-tr4 td:nth-child(1) {
+    text-align: center; }
+    .job .job-tr4 td:nth-child(1) span {
+      color: #999999;
+      font-size: 1.4rem;
+      margin: 0 auto; }
+  .job .job-tr4 td:nth-child(2) {
+    color: black; }
+    .job .job-tr4 td:nth-child(2) span:nth-child(2) {
+      float: right;
+      margin-right: 2rem; }
+  .job .job-tr56 td {
+    color: black; }
+    .job .job-tr56 td span:nth-child(2) {
+      float: right;
+      margin-right: 2rem; }
+  .job .job-tr7 td span:nth-child(2) {
+    margin: 0;
+    color: red; }
+  .job .job-tr7 td span:nth-child(3) {
+    margin: 0; }
+  .job .job-tr8 td span {
+    margin: 0;
+    padding-left: 1rem; }
+
+.job-job {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5rem 3rem;
+  background-color: rgba(0, 0, 0, 0.761);
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 100%;
+  font-size: 16px;
+  color: #fff;
+  text-indent: 25px; }
+  .job-job h3 {
+    text-align: center;
+    margin-bottom: 1rem; }
+  .job-job p {
+    letter-spacing: 2px; }
+
+.job:hover ~ .job-job {
+  display: block;
+  transition: 0.3s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s; }
+
+.job-job:hover {
+  display: block; }
+
+/*# sourceMappingURL=_task15-3-main.css.mapp */

@@ -47,10 +47,12 @@ input {
   float: right; }
   .nav-collapse ul li {
     display: inline-block;
-    padding: 38.5px 15px;
+    padding: 0 15px;
     border-bottom: transparent 4px solid; }
     .nav-collapse ul li a {
-      color: #fff; }
+      color: #fff;
+      height: 97px;
+      line-height: 97px; }
     .nav-collapse ul li:hover {
       border-bottom: #fff 4px solid; }
   @media screen and (max-width: 768px) {
@@ -64,4 +66,4 @@ input {
           padding: 10px 0;
           text-align: center; } }
 
-/*# sourceMappingURL=nav.css.map */
+/*# sourceMappingURL=_nav.css.mapp */

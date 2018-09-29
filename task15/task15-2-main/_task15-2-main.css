@@ -44,8 +44,10 @@
       margin-right: 1rem; }
     .sidebar ul li:hover::before {
       background: #ff650e; }
-    .sidebar ul li a:hover {
-      color: #ff650e; }
+    .sidebar ul li a {
+      cursor: pointer; }
+      .sidebar ul li a:hover {
+        color: #ff650e; }
 
 .intro {
   font-size: 1.4rem;
@@ -78,4 +80,4 @@
     padding-left: 15px;
     padding-right: 15px; } }
 
-/*# sourceMappingURL=task15-2-main.css.map */
+/*# sourceMappingURL=_task15-2-main.csss.map */
