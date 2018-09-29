@@ -54,12 +54,10 @@ input{
     @extend %flex-sb-c;
     li{
       display:inline-block;
-      padding: 0 15px;
+      padding: 38px 15px;
       border-bottom: transparent 4px solid;
       a{
         color: $white-c;
-        height: 97px;
-        line-height: 97px;
       }
       &:hover{
         border-bottom: $white-c 4px solid;
