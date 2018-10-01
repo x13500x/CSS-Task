@@ -102,6 +102,7 @@ h3{
       span{
         color: $green-c;
         margin-bottom: 1.5rem;
+        display: block;
         &::before{
           background: url("image/user.png");
           content: "";
@@ -117,7 +118,6 @@ h3{
     }
   }
   span{
-    display: block;
     @extend %flex-c-c;
     margin-bottom: 2rem;
   }
